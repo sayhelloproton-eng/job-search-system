@@ -1,0 +1,736 @@
+{
+  "schemaVersion": "term-card-hub-wave.v1",
+  "generatedAt": "2026-09-08",
+  "wave": "T7_WAVE_3",
+  "selectionPolicy": "MISSING_HUB_DEGREE_DESC_THEN_CROSS_CHAIN",
+  "targetTerms": 80,
+  "items": [
+    {
+      "termId": "term-937adac2c1",
+      "canonicalName": "RUM",
+      "chains": [
+        "frontend",
+        "fullstack"
+      ],
+      "degree": 1,
+      "rank": 1
+    },
+    {
+      "termId": "term-07e2a5456b",
+      "canonicalName": "Server Function",
+      "chains": [
+        "frontend",
+        "fullstack"
+      ],
+      "degree": 1,
+      "rank": 2
+    },
+    {
+      "termId": "term-33e8a07b97",
+      "canonicalName": "Tenant Isolation",
+      "chains": [
+        "backend",
+        "fullstack"
+      ],
+      "degree": 1,
+      "rank": 3
+    },
+    {
+      "termId": "term-18abafd3cf",
+      "canonicalName": "Tool Permission",
+      "chains": [
+        "agent",
+        "fullstack"
+      ],
+      "degree": 1,
+      "rank": 4
+    },
+    {
+      "termId": "term-0bc825e389",
+      "canonicalName": "Tool Result",
+      "chains": [
+        "agent",
+        "fullstack"
+      ],
+      "degree": 1,
+      "rank": 5
+    },
+    {
+      "termId": "term-12625ba3c1",
+      "canonicalName": "WAITING",
+      "chains": [
+        "agent",
+        "fullstack"
+      ],
+      "degree": 1,
+      "rank": 6
+    },
+    {
+      "termId": "term-a279fe916f",
+      "canonicalName": "Workspace",
+      "chains": [
+        "agent",
+        "frontend"
+      ],
+      "degree": 1,
+      "rank": 7
+    },
+    {
+      "termId": "term-564289a5f3",
+      "canonicalName": "ABAC",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 8
+    },
+    {
+      "termId": "term-f9f7917226",
+      "canonicalName": "Ack",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 9
+    },
+    {
+      "termId": "term-4850b7907a",
+      "canonicalName": "Admission Control",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 10
+    },
+    {
+      "termId": "term-81f99b579f",
+      "canonicalName": "Agent Card",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 11
+    },
+    {
+      "termId": "term-be461bb883",
+      "canonicalName": "Agent Explosion",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 12
+    },
+    {
+      "termId": "term-0b69070c87",
+      "canonicalName": "Agent Registry",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 13
+    },
+    {
+      "termId": "term-f36e3d0d92",
+      "canonicalName": "Agent Routing",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 14
+    },
+    {
+      "termId": "term-abfb92ec00",
+      "canonicalName": "Agentic Retrieval",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 15
+    },
+    {
+      "termId": "term-cdaa6b8937",
+      "canonicalName": "Aging",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 16
+    },
+    {
+      "termId": "term-76e2efd6fd",
+      "canonicalName": "API Client Generation",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 1,
+      "rank": 17
+    },
+    {
+      "termId": "term-98989e06bd",
+      "canonicalName": "API Gateway",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 1,
+      "rank": 18
+    },
+    {
+      "termId": "term-f64f0f6a59",
+      "canonicalName": "Approval UI",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 1,
+      "rank": 19
+    },
+    {
+      "termId": "term-9fe5c9c841",
+      "canonicalName": "Artifact Eval",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 20
+    },
+    {
+      "termId": "term-47d6ed932d",
+      "canonicalName": "AsyncLocalStorage",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 21
+    },
+    {
+      "termId": "term-4605575612",
+      "canonicalName": "Attention Key",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 22
+    },
+    {
+      "termId": "term-66f5c87193",
+      "canonicalName": "Authority",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 23
+    },
+    {
+      "termId": "term-3f36098fce",
+      "canonicalName": "B-tree",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 24
+    },
+    {
+      "termId": "term-848278c4fe",
+      "canonicalName": "Blackboard",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 25
+    },
+    {
+      "termId": "term-d96d7fcf37",
+      "canonicalName": "BM25",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 26
+    },
+    {
+      "termId": "term-81e4a5523e",
+      "canonicalName": "Budget",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 27
+    },
+    {
+      "termId": "term-f799949692",
+      "canonicalName": "Bulkhead",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 28
+    },
+    {
+      "termId": "term-3dbabddf67",
+      "canonicalName": "Cache-aside",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 29
+    },
+    {
+      "termId": "term-46de2f7389",
+      "canonicalName": "Call Stack",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 1,
+      "rank": 30
+    },
+    {
+      "termId": "term-692fa1dea3",
+      "canonicalName": "Capability Layer",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 31
+    },
+    {
+      "termId": "term-9b7c5b3523",
+      "canonicalName": "Capability Negotiation",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 32
+    },
+    {
+      "termId": "term-5c5d623fd6",
+      "canonicalName": "Client Components",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 1,
+      "rank": 33
+    },
+    {
+      "termId": "term-a30d80b2d9",
+      "canonicalName": "CLS",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 1,
+      "rank": 34
+    },
+    {
+      "termId": "term-e6fb06210f",
+      "canonicalName": "Code",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 35
+    },
+    {
+      "termId": "term-faa1ab7901",
+      "canonicalName": "Compile-time Type",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 1,
+      "rank": 36
+    },
+    {
+      "termId": "term-6288c74c29",
+      "canonicalName": "Composite",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 1,
+      "rank": 37
+    },
+    {
+      "termId": "term-6b6643ec3d",
+      "canonicalName": "Conflict Gate",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 38
+    },
+    {
+      "termId": "term-ad85f6dc58",
+      "canonicalName": "Contract-first",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 1,
+      "rank": 39
+    },
+    {
+      "termId": "term-f7da1a742f",
+      "canonicalName": "Coordination Tax",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 40
+    },
+    {
+      "termId": "term-13b6f5492c",
+      "canonicalName": "Cross-Runtime Boundary",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 41
+    },
+    {
+      "termId": "term-5fa036a390",
+      "canonicalName": "CSP",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 1,
+      "rank": 42
+    },
+    {
+      "termId": "term-0bfff74355",
+      "canonicalName": "CSSOM",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 1,
+      "rank": 43
+    },
+    {
+      "termId": "term-eed9295638",
+      "canonicalName": "Data Plane",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 44
+    },
+    {
+      "termId": "term-00d8fb4958",
+      "canonicalName": "Dead-letter Queue",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 45
+    },
+    {
+      "termId": "term-3a1d9722ef",
+      "canonicalName": "Decision Record",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 46
+    },
+    {
+      "termId": "term-aab0d36eda",
+      "canonicalName": "Deep Research",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 47
+    },
+    {
+      "termId": "term-4e8eb4841a",
+      "canonicalName": "Delivery Semantics",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 48
+    },
+    {
+      "termId": "term-de58e2b17c",
+      "canonicalName": "Dependency",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 49
+    },
+    {
+      "termId": "term-abbc90e006",
+      "canonicalName": "DNS",
+      "chains": [
+        "shared"
+      ],
+      "degree": 1,
+      "rank": 50
+    },
+    {
+      "termId": "term-4617ea1fe6",
+      "canonicalName": "Docker Image",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 51
+    },
+    {
+      "termId": "term-4f8278c89a",
+      "canonicalName": "Document",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 52
+    },
+    {
+      "termId": "term-748d14d962",
+      "canonicalName": "DPO",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 53
+    },
+    {
+      "termId": "term-4eaf489bda",
+      "canonicalName": "Dynamic Import",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 1,
+      "rank": 54
+    },
+    {
+      "termId": "term-2fffb71237",
+      "canonicalName": "Effect Eval",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 55
+    },
+    {
+      "termId": "term-3bc3e39c4f",
+      "canonicalName": "Error Accumulation",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 56
+    },
+    {
+      "termId": "term-8fdab0d793",
+      "canonicalName": "Event Bubbling",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 1,
+      "rank": 57
+    },
+    {
+      "termId": "term-79fbade86a",
+      "canonicalName": "Event Capturing",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 1,
+      "rank": 58
+    },
+    {
+      "termId": "term-6c9493fa9c",
+      "canonicalName": "Event-driven Collaboration",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 59
+    },
+    {
+      "termId": "term-b1033ae408",
+      "canonicalName": "Executor",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 60
+    },
+    {
+      "termId": "term-c6562d1504",
+      "canonicalName": "External Truth",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 61
+    },
+    {
+      "termId": "term-02fba0deeb",
+      "canonicalName": "Failure Boundary",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 1,
+      "rank": 62
+    },
+    {
+      "termId": "term-fa39de9d39",
+      "canonicalName": "Failure Slice",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 63
+    },
+    {
+      "termId": "term-ec0188a088",
+      "canonicalName": "Feedback Density",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 64
+    },
+    {
+      "termId": "term-a206522662",
+      "canonicalName": "Fiber",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 1,
+      "rank": 65
+    },
+    {
+      "termId": "term-18cf53b903",
+      "canonicalName": "Frontend Span",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 1,
+      "rank": 66
+    },
+    {
+      "termId": "term-5e718fc2b2",
+      "canonicalName": "Function Calling",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 67
+    },
+    {
+      "termId": "term-d9ec3630bd",
+      "canonicalName": "Generation Eval",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 68
+    },
+    {
+      "termId": "term-db9a022b75",
+      "canonicalName": "Goal",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 69
+    },
+    {
+      "termId": "term-13da39d0e9",
+      "canonicalName": "Goal Drift",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 70
+    },
+    {
+      "termId": "term-56b8e6bb95",
+      "canonicalName": "Governance",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 71
+    },
+    {
+      "termId": "term-d0005c2ccd",
+      "canonicalName": "Graceful Shutdown",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 72
+    },
+    {
+      "termId": "term-29a184b65c",
+      "canonicalName": "Graph",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 73
+    },
+    {
+      "termId": "term-ac63f36343",
+      "canonicalName": "Grounding",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 74
+    },
+    {
+      "termId": "term-25e1c28c86",
+      "canonicalName": "gRPC",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 75
+    },
+    {
+      "termId": "term-796b66b702",
+      "canonicalName": "Handoff Context",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 76
+    },
+    {
+      "termId": "term-164cc36359",
+      "canonicalName": "Hot Key",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 77
+    },
+    {
+      "termId": "term-89f216aaa6",
+      "canonicalName": "HTML Parsing",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 1,
+      "rank": 78
+    },
+    {
+      "termId": "term-0064e7478c",
+      "canonicalName": "Infrastructure Layer",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 79
+    },
+    {
+      "termId": "term-4de99c71f4",
+      "canonicalName": "INP",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 1,
+      "rank": 80
+    }
+  ]
+}

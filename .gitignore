@@ -1,0 +1,54 @@
+node_modules/
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Always-private local workspace
+career-assets/
+.private/
+docs/00-公共上下文/
+
+# Local authoring docs are deny-by-default to prevent accidental disclosure.
+# Audited, non-sensitive files may be force-added and remain normally tracked.
+docs/**
+!docs/
+!docs/学习/
+!docs/学习/系统设计.md
+!docs/面试/
+!docs/面试/系统设计.md
+
+# Local tests are deny-by-default; audited non-sensitive tests may be tracked.
+app/tests/**
+!app/tests/
+!app/tests/*.public.test.ts
+
+# Skill source is public. References/evals/template sources are reviewed before
+# publication because they may contain personal data or third-party material.
+skills/**/references/
+skills/**/evals/
+skills/resume-engineering/templates/
+
+# Runtime data: schema/migrations are public, real state is private.
+app/db/runtime/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Build / test artifacts
+dist/
+coverage/
+.tmp/
+tmp/
+*.tsbuildinfo
+__pycache__/
+*.py[cod]
+
+# Local editor/cache
+.vscode/
+.idea/
+.cache/
+
+# Nested project build artifacts
+**/.dist/

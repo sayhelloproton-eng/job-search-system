@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "learning-aliases.public.v1",
+  "aliases": [
+    {"alias":"Agent Runtime Loop","canonical":"Agent Runtime"},
+    {"alias":"Context","canonical":"Context Engineering"},
+    {"alias":"Function Calling","canonical":"Tool Calling"},
+    {"alias":"Model Context Protocol","canonical":"MCP"},
+    {"alias":"Retrieval-Augmented Generation","canonical":"RAG"},
+    {"alias":"Evaluation","canonical":"Eval"},
+    {"alias":"TS","canonical":"TypeScript"},
+    {"alias":"Node.js Runtime","canonical":"Node Runtime"},
+    {"alias":"HTTP API","canonical":"HTTP / API"},
+    {"alias":"Resilience","canonical":"Reliability"},
+    {"alias":"Browser Runtime","canonical":"Browser"},
+    {"alias":"Forward Deployed Engineer","canonical":"FDE"}
+  ]
+}

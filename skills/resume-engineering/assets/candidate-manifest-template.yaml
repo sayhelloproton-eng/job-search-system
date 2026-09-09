@@ -1,0 +1,12 @@
+candidate_id: ""
+hypothesis: ""
+target_cluster: ""
+selected_evidence: []
+omitted_high_value_evidence: []
+major_jd_coverage: []
+partial_or_transferable: []
+known_gaps: []
+review_score: null
+review_critical_failures: []
+human_score: null
+human_comments: null

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "terminology.aliases.v1",
+  "aliases": [
+    {
+      "canonical": "async/await",
+      "alias": "async-await"
+    },
+    {
+      "canonical": "BFF",
+      "alias": "Backend-for-Frontend"
+    },
+    {
+      "canonical": "Cache Tag",
+      "alias": "cacheTag"
+    },
+    {
+      "canonical": "Log",
+      "alias": "Logs"
+    },
+    {
+      "canonical": "Metric",
+      "alias": "Metrics"
+    },
+    {
+      "canonical": "OpenID Connect",
+      "alias": "OIDC"
+    },
+    {
+      "canonical": "Rate Limiting",
+      "alias": "Rate Limit"
+    },
+    {
+      "canonical": "Eval",
+      "alias": "Evaluation"
+    },
+    {
+      "canonical": "React Server Components",
+      "alias": "React Server Component"
+    },
+    {
+      "canonical": "React Server Components",
+      "alias": "Server Components"
+    }
+  ]
+}

@@ -1,0 +1,755 @@
+{
+  "schemaVersion": "term-card-hub-wave.v1",
+  "generatedAt": "2026-09-08",
+  "wave": "T7_WAVE_1",
+  "selectionPolicy": "MISSING_HUB_DEGREE_DESC_THEN_CROSS_CHAIN",
+  "targetTerms": 80,
+  "items": [
+    {
+      "termId": "term-431bdfc7b7",
+      "canonicalName": "Agent Loop",
+      "chains": [
+        "agent"
+      ],
+      "degree": 16,
+      "rank": 1
+    },
+    {
+      "termId": "term-0a4ca4ce7e",
+      "canonicalName": "Harness",
+      "chains": [
+        "agent"
+      ],
+      "degree": 10,
+      "rank": 2
+    },
+    {
+      "termId": "term-142f817c3e",
+      "canonicalName": "Scheduler",
+      "chains": [
+        "agent"
+      ],
+      "degree": 7,
+      "rank": 3
+    },
+    {
+      "termId": "term-d0278de5f6",
+      "canonicalName": "Attention",
+      "chains": [
+        "agent"
+      ],
+      "degree": 6,
+      "rank": 4
+    },
+    {
+      "termId": "term-4cddc093d5",
+      "canonicalName": "LLM",
+      "chains": [
+        "agent"
+      ],
+      "degree": 6,
+      "rank": 5
+    },
+    {
+      "termId": "term-8b60e9d739",
+      "canonicalName": "Recovery",
+      "chains": [
+        "agent"
+      ],
+      "degree": 6,
+      "rank": 6
+    },
+    {
+      "termId": "term-27998e08b8",
+      "canonicalName": "Hydration",
+      "chains": [
+        "frontend",
+        "fullstack"
+      ],
+      "degree": 5,
+      "rank": 7
+    },
+    {
+      "termId": "term-c5be5b3d86",
+      "canonicalName": "Capability",
+      "chains": [
+        "agent"
+      ],
+      "degree": 5,
+      "rank": 8
+    },
+    {
+      "termId": "term-9be9eab784",
+      "canonicalName": "Isolation Level",
+      "chains": [
+        "backend"
+      ],
+      "degree": 5,
+      "rank": 9
+    },
+    {
+      "termId": "term-fe7042cb74",
+      "canonicalName": "Schema",
+      "chains": [
+        "shared"
+      ],
+      "degree": 5,
+      "rank": 10
+    },
+    {
+      "termId": "term-6d244f5836",
+      "canonicalName": "Permission",
+      "chains": [
+        "agent",
+        "backend"
+      ],
+      "degree": 4,
+      "rank": 11
+    },
+    {
+      "termId": "term-794c422cb5",
+      "canonicalName": "Dense Retrieval",
+      "chains": [
+        "agent"
+      ],
+      "degree": 4,
+      "rank": 12
+    },
+    {
+      "termId": "term-6cdb7bac28",
+      "canonicalName": "Hybrid Retrieval",
+      "chains": [
+        "agent"
+      ],
+      "degree": 4,
+      "rank": 13
+    },
+    {
+      "termId": "term-e117797422",
+      "canonicalName": "Lock",
+      "chains": [
+        "backend"
+      ],
+      "degree": 4,
+      "rank": 14
+    },
+    {
+      "termId": "term-17d38c23a7",
+      "canonicalName": "MCP Server",
+      "chains": [
+        "agent"
+      ],
+      "degree": 4,
+      "rank": 15
+    },
+    {
+      "termId": "term-91edd4009c",
+      "canonicalName": "Pod",
+      "chains": [
+        "backend"
+      ],
+      "degree": 4,
+      "rank": 16
+    },
+    {
+      "termId": "term-a5151b6e4c",
+      "canonicalName": "Post-training",
+      "chains": [
+        "agent"
+      ],
+      "degree": 4,
+      "rank": 17
+    },
+    {
+      "termId": "term-77eb1db6cb",
+      "canonicalName": "Router",
+      "chains": [
+        "agent"
+      ],
+      "degree": 4,
+      "rank": 18
+    },
+    {
+      "termId": "term-c62aaaf1e8",
+      "canonicalName": "SSR",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 4,
+      "rank": 19
+    },
+    {
+      "termId": "term-4a78d263f3",
+      "canonicalName": "Subagent",
+      "chains": [
+        "agent"
+      ],
+      "degree": 4,
+      "rank": 20
+    },
+    {
+      "termId": "term-5c528ebc85",
+      "canonicalName": "Checkpoint",
+      "chains": [
+        "agent",
+        "backend",
+        "fullstack"
+      ],
+      "degree": 3,
+      "rank": 21
+    },
+    {
+      "termId": "term-59c826fc85",
+      "canonicalName": "Cookie",
+      "chains": [
+        "frontend",
+        "fullstack"
+      ],
+      "degree": 3,
+      "rank": 22
+    },
+    {
+      "termId": "term-5006ed0248",
+      "canonicalName": "Event",
+      "chains": [
+        "agent",
+        "frontend"
+      ],
+      "degree": 3,
+      "rank": 23
+    },
+    {
+      "termId": "term-8c5024b379",
+      "canonicalName": "Idempotency Key",
+      "chains": [
+        "agent",
+        "backend"
+      ],
+      "degree": 3,
+      "rank": 24
+    },
+    {
+      "termId": "term-a31ed664e5",
+      "canonicalName": "JSON Schema",
+      "chains": [
+        "agent",
+        "fullstack"
+      ],
+      "degree": 3,
+      "rank": 25
+    },
+    {
+      "termId": "term-c5a39a3a7b",
+      "canonicalName": "Metric",
+      "chains": [
+        "backend",
+        "shared"
+      ],
+      "degree": 3,
+      "rank": 26
+    },
+    {
+      "termId": "term-57ab81fe5d",
+      "canonicalName": "SSE",
+      "chains": [
+        "backend",
+        "fullstack"
+      ],
+      "degree": 3,
+      "rank": 27
+    },
+    {
+      "termId": "term-efa3399472",
+      "canonicalName": "A2A",
+      "chains": [
+        "agent"
+      ],
+      "degree": 3,
+      "rank": 28
+    },
+    {
+      "termId": "term-b7c4cd968c",
+      "canonicalName": "Agent Event Stream",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 3,
+      "rank": 29
+    },
+    {
+      "termId": "term-3b1a9f9c32",
+      "canonicalName": "Agentic RAG",
+      "chains": [
+        "agent"
+      ],
+      "degree": 3,
+      "rank": 30
+    },
+    {
+      "termId": "term-a033a528b6",
+      "canonicalName": "API",
+      "chains": [
+        "shared"
+      ],
+      "degree": 3,
+      "rank": 31
+    },
+    {
+      "termId": "term-255a762c36",
+      "canonicalName": "Container",
+      "chains": [
+        "backend"
+      ],
+      "degree": 3,
+      "rank": 32
+    },
+    {
+      "termId": "term-8ed9cd04f2",
+      "canonicalName": "Current Truth",
+      "chains": [
+        "agent"
+      ],
+      "degree": 3,
+      "rank": 33
+    },
+    {
+      "termId": "term-a54087722f",
+      "canonicalName": "Decoding",
+      "chains": [
+        "agent"
+      ],
+      "degree": 3,
+      "rank": 34
+    },
+    {
+      "termId": "term-dbab387052",
+      "canonicalName": "Distributed Trace",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 3,
+      "rank": 35
+    },
+    {
+      "termId": "term-be65d27ae0",
+      "canonicalName": "DOM",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 3,
+      "rank": 36
+    },
+    {
+      "termId": "term-926131580c",
+      "canonicalName": "Health Check",
+      "chains": [
+        "backend"
+      ],
+      "degree": 3,
+      "rank": 37
+    },
+    {
+      "termId": "term-66f79d8a63",
+      "canonicalName": "History",
+      "chains": [
+        "agent"
+      ],
+      "degree": 3,
+      "rank": 38
+    },
+    {
+      "termId": "term-e540cdd132",
+      "canonicalName": "Index",
+      "chains": [
+        "backend"
+      ],
+      "degree": 3,
+      "rank": 39
+    },
+    {
+      "termId": "term-2f24b3f6de",
+      "canonicalName": "Kubernetes Deployment",
+      "chains": [
+        "backend"
+      ],
+      "degree": 3,
+      "rank": 40
+    },
+    {
+      "termId": "term-903272216d",
+      "canonicalName": "Lexical Retrieval",
+      "chains": [
+        "agent"
+      ],
+      "degree": 3,
+      "rank": 41
+    },
+    {
+      "termId": "term-7ac11ff175",
+      "canonicalName": "Memory Retrieval",
+      "chains": [
+        "agent"
+      ],
+      "degree": 3,
+      "rank": 42
+    },
+    {
+      "termId": "term-c854cb2901",
+      "canonicalName": "Model Routing",
+      "chains": [
+        "agent"
+      ],
+      "degree": 3,
+      "rank": 43
+    },
+    {
+      "termId": "term-22de9788db",
+      "canonicalName": "Mutation",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 3,
+      "rank": 44
+    },
+    {
+      "termId": "term-7c02c7e8a0",
+      "canonicalName": "Observation",
+      "chains": [
+        "agent"
+      ],
+      "degree": 3,
+      "rank": 45
+    },
+    {
+      "termId": "term-3101a69a04",
+      "canonicalName": "OpenAPI",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 3,
+      "rank": 46
+    },
+    {
+      "termId": "term-808c8a73ed",
+      "canonicalName": "OpenTelemetry",
+      "chains": [
+        "backend"
+      ],
+      "degree": 3,
+      "rank": 47
+    },
+    {
+      "termId": "term-9f00fad98b",
+      "canonicalName": "Policy",
+      "chains": [
+        "agent"
+      ],
+      "degree": 3,
+      "rank": 48
+    },
+    {
+      "termId": "term-75b7da1921",
+      "canonicalName": "Priority Queue",
+      "chains": [
+        "agent"
+      ],
+      "degree": 3,
+      "rank": 49
+    },
+    {
+      "termId": "term-4bcc0754c8",
+      "canonicalName": "Render Tree",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 3,
+      "rank": 50
+    },
+    {
+      "termId": "term-4b3d34e3b6",
+      "canonicalName": "Runtime Context",
+      "chains": [
+        "agent"
+      ],
+      "degree": 3,
+      "rank": 51
+    },
+    {
+      "termId": "term-dddba30368",
+      "canonicalName": "Streaming UI",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 3,
+      "rank": 52
+    },
+    {
+      "termId": "term-1937c4c28f",
+      "canonicalName": "Tool",
+      "chains": [
+        "agent"
+      ],
+      "degree": 3,
+      "rank": 53
+    },
+    {
+      "termId": "term-b512b12bae",
+      "canonicalName": "Transaction Boundary",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 3,
+      "rank": 54
+    },
+    {
+      "termId": "term-9236e026cc",
+      "canonicalName": "Transformer",
+      "chains": [
+        "agent"
+      ],
+      "degree": 3,
+      "rank": 55
+    },
+    {
+      "termId": "term-fcbdc4c271",
+      "canonicalName": "Session",
+      "chains": [
+        "agent",
+        "backend",
+        "fullstack"
+      ],
+      "degree": 2,
+      "rank": 56
+    },
+    {
+      "termId": "term-c283e375ed",
+      "canonicalName": "Thread",
+      "chains": [
+        "agent",
+        "fullstack",
+        "shared"
+      ],
+      "degree": 2,
+      "rank": 57
+    },
+    {
+      "termId": "term-56d3c9490b",
+      "canonicalName": "Timeout",
+      "chains": [
+        "agent",
+        "backend",
+        "shared"
+      ],
+      "degree": 2,
+      "rank": 58
+    },
+    {
+      "termId": "term-3b1b74c991",
+      "canonicalName": "CORS",
+      "chains": [
+        "frontend",
+        "fullstack"
+      ],
+      "degree": 2,
+      "rank": 59
+    },
+    {
+      "termId": "term-6bab147e47",
+      "canonicalName": "Hook",
+      "chains": [
+        "agent",
+        "frontend"
+      ],
+      "degree": 2,
+      "rank": 60
+    },
+    {
+      "termId": "term-3401db8cc2",
+      "canonicalName": "JSON-RPC",
+      "chains": [
+        "agent",
+        "shared"
+      ],
+      "degree": 2,
+      "rank": 61
+    },
+    {
+      "termId": "term-5038e18712",
+      "canonicalName": "JWT",
+      "chains": [
+        "backend",
+        "fullstack"
+      ],
+      "degree": 2,
+      "rank": 62
+    },
+    {
+      "termId": "term-74c69adbd4",
+      "canonicalName": "Partial Prerendering",
+      "chains": [
+        "frontend",
+        "fullstack"
+      ],
+      "degree": 2,
+      "rank": 63
+    },
+    {
+      "termId": "term-441679e8a7",
+      "canonicalName": "React Server Components",
+      "chains": [
+        "frontend",
+        "fullstack"
+      ],
+      "degree": 2,
+      "rank": 64
+    },
+    {
+      "termId": "term-e64b40f2bd",
+      "canonicalName": "RPC",
+      "chains": [
+        "backend",
+        "shared"
+      ],
+      "degree": 2,
+      "rank": 65
+    },
+    {
+      "termId": "term-e9b54646a4",
+      "canonicalName": "Server Action",
+      "chains": [
+        "frontend",
+        "fullstack"
+      ],
+      "degree": 2,
+      "rank": 66
+    },
+    {
+      "termId": "term-542ec8143e",
+      "canonicalName": "Trace Context",
+      "chains": [
+        "backend",
+        "shared"
+      ],
+      "degree": 2,
+      "rank": 67
+    },
+    {
+      "termId": "term-67c371fd20",
+      "canonicalName": "WebSocket",
+      "chains": [
+        "backend",
+        "fullstack"
+      ],
+      "degree": 2,
+      "rank": 68
+    },
+    {
+      "termId": "term-434b0a6daa",
+      "canonicalName": "ACID",
+      "chains": [
+        "backend"
+      ],
+      "degree": 2,
+      "rank": 69
+    },
+    {
+      "termId": "term-c0d4ab1e14",
+      "canonicalName": "Agent Run",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 2,
+      "rank": 70
+    },
+    {
+      "termId": "term-59494695a3",
+      "canonicalName": "Approval",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 71
+    },
+    {
+      "termId": "term-1de9d55f67",
+      "canonicalName": "Assessment",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 72
+    },
+    {
+      "termId": "term-6384490462",
+      "canonicalName": "Authentication Flow",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 2,
+      "rank": 73
+    },
+    {
+      "termId": "term-f5dc56292e",
+      "canonicalName": "Authorization Flow",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 2,
+      "rank": 74
+    },
+    {
+      "termId": "term-3e18b22485",
+      "canonicalName": "Backend Span",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 2,
+      "rank": 75
+    },
+    {
+      "termId": "term-539895d936",
+      "canonicalName": "Browser Agent",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 76
+    },
+    {
+      "termId": "term-7016f6938e",
+      "canonicalName": "Capability Registry",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 77
+    },
+    {
+      "termId": "term-2cf64e447b",
+      "canonicalName": "Chain",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 78
+    },
+    {
+      "termId": "term-f45350fb9e",
+      "canonicalName": "Child Task",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 79
+    },
+    {
+      "termId": "term-cd6642e212",
+      "canonicalName": "Chunking",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 80
+    }
+  ]
+}

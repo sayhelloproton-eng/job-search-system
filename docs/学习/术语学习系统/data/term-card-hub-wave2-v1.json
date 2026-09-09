@@ -1,0 +1,742 @@
+{
+  "schemaVersion": "term-card-hub-wave.v1",
+  "generatedAt": "2026-09-08",
+  "wave": "T7_WAVE_2",
+  "selectionPolicy": "MISSING_HUB_DEGREE_DESC_THEN_CROSS_CHAIN",
+  "targetTerms": 80,
+  "items": [
+    {
+      "termId": "term-df4013ca70",
+      "canonicalName": "Concurrency Limit",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 1
+    },
+    {
+      "termId": "term-4dc37f61dd",
+      "canonicalName": "Connector",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 2,
+      "rank": 2
+    },
+    {
+      "termId": "term-cb7a82c317",
+      "canonicalName": "Consumer",
+      "chains": [
+        "backend"
+      ],
+      "degree": 2,
+      "rank": 3
+    },
+    {
+      "termId": "term-95e08528b8",
+      "canonicalName": "Context Window",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 4
+    },
+    {
+      "termId": "term-5f3670a630",
+      "canonicalName": "Control Plane",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 5
+    },
+    {
+      "termId": "term-4fe486f255",
+      "canonicalName": "CSR",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 2,
+      "rank": 6
+    },
+    {
+      "termId": "term-9ac784020c",
+      "canonicalName": "Customer Data Boundary",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 2,
+      "rank": 7
+    },
+    {
+      "termId": "term-bd45c88842",
+      "canonicalName": "Data Consistency",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 2,
+      "rank": 8
+    },
+    {
+      "termId": "term-1797e6ebcb",
+      "canonicalName": "Delegation",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 9
+    },
+    {
+      "termId": "term-c2c45258cc",
+      "canonicalName": "Discovery",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 10
+    },
+    {
+      "termId": "term-f09dcbc31e",
+      "canonicalName": "DTO",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 2,
+      "rank": 11
+    },
+    {
+      "termId": "term-68d1dae1af",
+      "canonicalName": "Effect",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 12
+    },
+    {
+      "termId": "term-9bc3f4bf9a",
+      "canonicalName": "Effect Boundary",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 13
+    },
+    {
+      "termId": "term-c077d67a92",
+      "canonicalName": "ESM",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 2,
+      "rank": 14
+    },
+    {
+      "termId": "term-100ec4462d",
+      "canonicalName": "Evidence",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 2,
+      "rank": 15
+    },
+    {
+      "termId": "term-cb440eae28",
+      "canonicalName": "Evidence-bound Approval",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 16
+    },
+    {
+      "termId": "term-efe00a9b59",
+      "canonicalName": "Exponential Backoff",
+      "chains": [
+        "backend"
+      ],
+      "degree": 2,
+      "rank": 17
+    },
+    {
+      "termId": "term-05e4ab3f6a",
+      "canonicalName": "Freshness",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 18
+    },
+    {
+      "termId": "term-aff69df1d4",
+      "canonicalName": "Instruct Model",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 19
+    },
+    {
+      "termId": "term-207b877e13",
+      "canonicalName": "Layout",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 2,
+      "rank": 20
+    },
+    {
+      "termId": "term-394448a354",
+      "canonicalName": "LCP",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 2,
+      "rank": 21
+    },
+    {
+      "termId": "term-8355dbc53d",
+      "canonicalName": "MCP Client",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 22
+    },
+    {
+      "termId": "term-1a1fda9f0e",
+      "canonicalName": "Memory Candidate",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 23
+    },
+    {
+      "termId": "term-25480dcc59",
+      "canonicalName": "Memory Promotion",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 24
+    },
+    {
+      "termId": "term-19d2ead10c",
+      "canonicalName": "Microtask",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 2,
+      "rank": 25
+    },
+    {
+      "termId": "term-95bba9729a",
+      "canonicalName": "Model Gateway",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 26
+    },
+    {
+      "termId": "term-93704094f8",
+      "canonicalName": "Operation ID",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 27
+    },
+    {
+      "termId": "term-e66e29225b",
+      "canonicalName": "Operational Handoff",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 2,
+      "rank": 28
+    },
+    {
+      "termId": "term-1766733e3a",
+      "canonicalName": "Optimistic UI",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 2,
+      "rank": 29
+    },
+    {
+      "termId": "term-039f7bd6bc",
+      "canonicalName": "Paint",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 2,
+      "rank": 30
+    },
+    {
+      "termId": "term-93efb46bf9",
+      "canonicalName": "Parent Task",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 31
+    },
+    {
+      "termId": "term-48aa63b9d1",
+      "canonicalName": "Partitioning",
+      "chains": [
+        "backend"
+      ],
+      "degree": 2,
+      "rank": 32
+    },
+    {
+      "termId": "term-c2e2d66213",
+      "canonicalName": "Process",
+      "chains": [
+        "shared"
+      ],
+      "degree": 2,
+      "rank": 33
+    },
+    {
+      "termId": "term-aa60968734",
+      "canonicalName": "Props",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 2,
+      "rank": 34
+    },
+    {
+      "termId": "term-af77b687c5",
+      "canonicalName": "Reasoning Model",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 35
+    },
+    {
+      "termId": "term-3c39c4507f",
+      "canonicalName": "Reasoning Routing",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 36
+    },
+    {
+      "termId": "term-4f7525e28a",
+      "canonicalName": "Reconciliation",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 2,
+      "rank": 37
+    },
+    {
+      "termId": "term-7ddb962526",
+      "canonicalName": "Replication",
+      "chains": [
+        "backend"
+      ],
+      "degree": 2,
+      "rank": 38
+    },
+    {
+      "termId": "term-088e29b0ab",
+      "canonicalName": "Request",
+      "chains": [
+        "shared"
+      ],
+      "degree": 2,
+      "rank": 39
+    },
+    {
+      "termId": "term-06183c8188",
+      "canonicalName": "Runtime Validation",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 2,
+      "rank": 40
+    },
+    {
+      "termId": "term-db45e234b4",
+      "canonicalName": "Saga",
+      "chains": [
+        "backend"
+      ],
+      "degree": 2,
+      "rank": 41
+    },
+    {
+      "termId": "term-8e6c548253",
+      "canonicalName": "Same-origin Policy",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 2,
+      "rank": 42
+    },
+    {
+      "termId": "term-733ae62459",
+      "canonicalName": "Schema Validation",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 2,
+      "rank": 43
+    },
+    {
+      "termId": "term-41afd85313",
+      "canonicalName": "Schema-first",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 2,
+      "rank": 44
+    },
+    {
+      "termId": "term-4e6efd269a",
+      "canonicalName": "Service Boundary",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 2,
+      "rank": 45
+    },
+    {
+      "termId": "term-aa69c3532f",
+      "canonicalName": "SFT",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 46
+    },
+    {
+      "termId": "term-49798f4232",
+      "canonicalName": "Shared State",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 47
+    },
+    {
+      "termId": "term-816b2d5b79",
+      "canonicalName": "Side Effect",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 48
+    },
+    {
+      "termId": "term-97fdaf2b1d",
+      "canonicalName": "Sparse Retrieval",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 49
+    },
+    {
+      "termId": "term-db1dfd45b1",
+      "canonicalName": "SQL",
+      "chains": [
+        "backend"
+      ],
+      "degree": 2,
+      "rank": 50
+    },
+    {
+      "termId": "term-24ce6d4891",
+      "canonicalName": "SSG",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 2,
+      "rank": 51
+    },
+    {
+      "termId": "term-6ec2c77a69",
+      "canonicalName": "SSR Data Flow",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 2,
+      "rank": 52
+    },
+    {
+      "termId": "term-7c65f0df68",
+      "canonicalName": "State Owner",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 53
+    },
+    {
+      "termId": "term-9db160257b",
+      "canonicalName": "State Reconciliation",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 54
+    },
+    {
+      "termId": "term-b37f79b5e4",
+      "canonicalName": "State Update",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 55
+    },
+    {
+      "termId": "term-d42aa017cf",
+      "canonicalName": "Streaming Rendering",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 2,
+      "rank": 56
+    },
+    {
+      "termId": "term-7fbb727db4",
+      "canonicalName": "Task",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 2,
+      "rank": 57
+    },
+    {
+      "termId": "term-6ce375e315",
+      "canonicalName": "TCP",
+      "chains": [
+        "shared"
+      ],
+      "degree": 2,
+      "rank": 58
+    },
+    {
+      "termId": "term-847e501d04",
+      "canonicalName": "Tenant Context",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 2,
+      "rank": 59
+    },
+    {
+      "termId": "term-4929fca9d4",
+      "canonicalName": "TLS",
+      "chains": [
+        "shared"
+      ],
+      "degree": 2,
+      "rank": 60
+    },
+    {
+      "termId": "term-ee977806d7",
+      "canonicalName": "Token",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 61
+    },
+    {
+      "termId": "term-98edbf6a9b",
+      "canonicalName": "Tool Call",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 2,
+      "rank": 62
+    },
+    {
+      "termId": "term-fbe19d8b68",
+      "canonicalName": "Top-k",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 63
+    },
+    {
+      "termId": "term-92d4d25078",
+      "canonicalName": "Trace ID",
+      "chains": [
+        "shared"
+      ],
+      "degree": 2,
+      "rank": 64
+    },
+    {
+      "termId": "term-ecc2bbf343",
+      "canonicalName": "Truth Commit",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 65
+    },
+    {
+      "termId": "term-50d8b4a941",
+      "canonicalName": "UNKNOWN",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 66
+    },
+    {
+      "termId": "term-03a182f7f6",
+      "canonicalName": "Validator",
+      "chains": [
+        "agent"
+      ],
+      "degree": 2,
+      "rank": 67
+    },
+    {
+      "termId": "term-8eaee405c3",
+      "canonicalName": "XSS",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 2,
+      "rank": 68
+    },
+    {
+      "termId": "term-6325f8c630",
+      "canonicalName": "Span",
+      "chains": [
+        "agent",
+        "backend",
+        "shared"
+      ],
+      "degree": 1,
+      "rank": 69
+    },
+    {
+      "termId": "term-1e5dcbb59b",
+      "canonicalName": "Artifact",
+      "chains": [
+        "agent",
+        "fullstack"
+      ],
+      "degree": 1,
+      "rank": 70
+    },
+    {
+      "termId": "term-94a9aae584",
+      "canonicalName": "Cache Components",
+      "chains": [
+        "frontend",
+        "fullstack"
+      ],
+      "degree": 1,
+      "rank": 71
+    },
+    {
+      "termId": "term-9caed18b39",
+      "canonicalName": "CDN",
+      "chains": [
+        "frontend",
+        "fullstack"
+      ],
+      "degree": 1,
+      "rank": 72
+    },
+    {
+      "termId": "term-14e1083ffa",
+      "canonicalName": "Citation",
+      "chains": [
+        "agent",
+        "fullstack"
+      ],
+      "degree": 1,
+      "rank": 73
+    },
+    {
+      "termId": "term-acc646e6dc",
+      "canonicalName": "Compensation",
+      "chains": [
+        "agent",
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 74
+    },
+    {
+      "termId": "term-51c0ae4e67",
+      "canonicalName": "CSRF",
+      "chains": [
+        "backend",
+        "frontend"
+      ],
+      "degree": 1,
+      "rank": 75
+    },
+    {
+      "termId": "term-303190fa14",
+      "canonicalName": "Deadlock",
+      "chains": [
+        "backend",
+        "shared"
+      ],
+      "degree": 1,
+      "rank": 76
+    },
+    {
+      "termId": "term-3b509b4fe2",
+      "canonicalName": "Lease",
+      "chains": [
+        "agent",
+        "shared"
+      ],
+      "degree": 1,
+      "rank": 77
+    },
+    {
+      "termId": "term-d7c47447f8",
+      "canonicalName": "OpenID Connect",
+      "chains": [
+        "backend",
+        "fullstack"
+      ],
+      "degree": 1,
+      "rank": 78
+    },
+    {
+      "termId": "term-dd1ea017bf",
+      "canonicalName": "RBAC",
+      "chains": [
+        "agent",
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 79
+    },
+    {
+      "termId": "term-a2b41bbaa7",
+      "canonicalName": "Resume",
+      "chains": [
+        "agent",
+        "fullstack"
+      ],
+      "degree": 1,
+      "rank": 80
+    }
+  ]
+}

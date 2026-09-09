@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "term-card-hub-wave.v1",
+  "generatedAt": "2026-09-08",
+  "wave": "T7_WAVE_5",
+  "selectionPolicy": "FINAL_MISSING_HUB_DEGREE_DESC_THEN_NAME",
+  "targetTerms": 16,
+  "items": [
+    {
+      "termId": "term-242c3a7007",
+      "canonicalName": "Tokenization",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 1
+    },
+    {
+      "termId": "term-3e9f2138a4",
+      "canonicalName": "Tool Result Contract",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 2
+    },
+    {
+      "termId": "term-e5875dfc01",
+      "canonicalName": "Tool Routing",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 3
+    },
+    {
+      "termId": "term-d83f4a2595",
+      "canonicalName": "Tool Side Effect",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 1,
+      "rank": 4
+    },
+    {
+      "termId": "term-e7520451c9",
+      "canonicalName": "Tool Surface",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 5
+    },
+    {
+      "termId": "term-caddfc5d9c",
+      "canonicalName": "Tree Shaking",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 1,
+      "rank": 6
+    },
+    {
+      "termId": "term-fcbc333bd1",
+      "canonicalName": "Trust",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 7
+    },
+    {
+      "termId": "term-21ca4bf54f",
+      "canonicalName": "Truth Ownership",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 8
+    },
+    {
+      "termId": "term-c7a978cc52",
+      "canonicalName": "TTFB",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 1,
+      "rank": 9
+    },
+    {
+      "termId": "term-2e33266830",
+      "canonicalName": "TTL",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 10
+    },
+    {
+      "termId": "term-5c2c26eaf0",
+      "canonicalName": "useEffect",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 1,
+      "rank": 11
+    },
+    {
+      "termId": "term-f32b67c7e2",
+      "canonicalName": "Value",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 12
+    },
+    {
+      "termId": "term-027c1146b1",
+      "canonicalName": "Vector",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 13
+    },
+    {
+      "termId": "term-264878c065",
+      "canonicalName": "WAL",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 14
+    },
+    {
+      "termId": "term-7500a47d12",
+      "canonicalName": "Work Environment",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 15
+    },
+    {
+      "termId": "term-b9936b288c",
+      "canonicalName": "worker_threads",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 16
+    }
+  ]
+}

@@ -1,0 +1,4764 @@
+{
+  "schemaVersion": "terminology.graph.v1",
+  "generatedAt": "2026-09-08",
+  "nodeSource": "data/terms-v1.json",
+  "hubNodeCount": 411,
+  "edgeCount": 436,
+  "hubs": [
+    {
+      "id": "term-0064e7478c",
+      "name": "Infrastructure Layer"
+    },
+    {
+      "id": "term-00d8fb4958",
+      "name": "Dead-letter Queue"
+    },
+    {
+      "id": "term-01054424b1",
+      "name": "Span ID"
+    },
+    {
+      "id": "term-027c1146b1",
+      "name": "Vector"
+    },
+    {
+      "id": "term-02fba0deeb",
+      "name": "Failure Boundary"
+    },
+    {
+      "id": "term-0397692092",
+      "name": "RoPE"
+    },
+    {
+      "id": "term-039f7bd6bc",
+      "name": "Paint"
+    },
+    {
+      "id": "term-03a182f7f6",
+      "name": "Validator"
+    },
+    {
+      "id": "term-05535ecff7",
+      "name": "Summary"
+    },
+    {
+      "id": "term-05e4ab3f6a",
+      "name": "Freshness"
+    },
+    {
+      "id": "term-06183c8188",
+      "name": "Runtime Validation"
+    },
+    {
+      "id": "term-07e2a5456b",
+      "name": "Server Function"
+    },
+    {
+      "id": "term-0855694ebb",
+      "name": "Runnable"
+    },
+    {
+      "id": "term-0865753f87",
+      "name": "Readiness Probe"
+    },
+    {
+      "id": "term-088e29b0ab",
+      "name": "Request"
+    },
+    {
+      "id": "term-0a3b4e7244",
+      "name": "MCP Prompt"
+    },
+    {
+      "id": "term-0a4ca4ce7e",
+      "name": "Harness"
+    },
+    {
+      "id": "term-0b69070c87",
+      "name": "Agent Registry"
+    },
+    {
+      "id": "term-0bc825e389",
+      "name": "Tool Result"
+    },
+    {
+      "id": "term-0bfff74355",
+      "name": "CSSOM"
+    },
+    {
+      "id": "term-0c236c82f6",
+      "name": "Retrieval Eval"
+    },
+    {
+      "id": "term-0deb51abaa",
+      "name": "Message Broker"
+    },
+    {
+      "id": "term-0e33b5f3ef",
+      "name": "Serializable"
+    },
+    {
+      "id": "term-0e8ad5a687",
+      "name": "State Commit"
+    },
+    {
+      "id": "term-0ec6d15054",
+      "name": "Response"
+    },
+    {
+      "id": "term-0f4d09e43d",
+      "name": "Supervisor"
+    },
+    {
+      "id": "term-100ec4462d",
+      "name": "Evidence"
+    },
+    {
+      "id": "term-101456bdd9",
+      "name": "Producer"
+    },
+    {
+      "id": "term-1038345ecc",
+      "name": "Queue"
+    },
+    {
+      "id": "term-1239539fc0",
+      "name": "Read Committed"
+    },
+    {
+      "id": "term-12625ba3c1",
+      "name": "WAITING"
+    },
+    {
+      "id": "term-13b6f5492c",
+      "name": "Cross-Runtime Boundary"
+    },
+    {
+      "id": "term-13da39d0e9",
+      "name": "Goal Drift"
+    },
+    {
+      "id": "term-142f817c3e",
+      "name": "Scheduler"
+    },
+    {
+      "id": "term-14daba4721",
+      "name": "Cache Invalidation"
+    },
+    {
+      "id": "term-14e1083ffa",
+      "name": "Citation"
+    },
+    {
+      "id": "term-164cc36359",
+      "name": "Hot Key"
+    },
+    {
+      "id": "term-1766733e3a",
+      "name": "Optimistic UI"
+    },
+    {
+      "id": "term-1769396381",
+      "name": "Authentication"
+    },
+    {
+      "id": "term-1797e6ebcb",
+      "name": "Delegation"
+    },
+    {
+      "id": "term-17d38c23a7",
+      "name": "MCP Server"
+    },
+    {
+      "id": "term-18abafd3cf",
+      "name": "Tool Permission"
+    },
+    {
+      "id": "term-18cf53b903",
+      "name": "Frontend Span"
+    },
+    {
+      "id": "term-1937c4c28f",
+      "name": "Tool"
+    },
+    {
+      "id": "term-19d2ead10c",
+      "name": "Microtask"
+    },
+    {
+      "id": "term-19d339e008",
+      "name": "Test-time Compute"
+    },
+    {
+      "id": "term-1a1fda9f0e",
+      "name": "Memory Candidate"
+    },
+    {
+      "id": "term-1afde506f8",
+      "name": "Agent Runtime"
+    },
+    {
+      "id": "term-1de9d55f67",
+      "name": "Assessment"
+    },
+    {
+      "id": "term-1e5dcbb59b",
+      "name": "Artifact"
+    },
+    {
+      "id": "term-1eef3e10ea",
+      "name": "Web Vitals"
+    },
+    {
+      "id": "term-1f7dba4446",
+      "name": "KV Cache"
+    },
+    {
+      "id": "term-207b877e13",
+      "name": "Layout"
+    },
+    {
+      "id": "term-20d232118b",
+      "name": "Outcome Eval"
+    },
+    {
+      "id": "term-21ca4bf54f",
+      "name": "Truth Ownership"
+    },
+    {
+      "id": "term-229eb41840",
+      "name": "Planner"
+    },
+    {
+      "id": "term-22de9788db",
+      "name": "Mutation"
+    },
+    {
+      "id": "term-24284aedd4",
+      "name": "Performance API"
+    },
+    {
+      "id": "term-242c3a7007",
+      "name": "Tokenization"
+    },
+    {
+      "id": "term-24ce6d4891",
+      "name": "SSG"
+    },
+    {
+      "id": "term-25480dcc59",
+      "name": "Memory Promotion"
+    },
+    {
+      "id": "term-255a762c36",
+      "name": "Container"
+    },
+    {
+      "id": "term-25716a9a64",
+      "name": "stdio"
+    },
+    {
+      "id": "term-25e1c28c86",
+      "name": "gRPC"
+    },
+    {
+      "id": "term-264878c065",
+      "name": "WAL"
+    },
+    {
+      "id": "term-27998e08b8",
+      "name": "Hydration"
+    },
+    {
+      "id": "term-27ad1672d8",
+      "name": "REST"
+    },
+    {
+      "id": "term-287c4e4dc8",
+      "name": "Runtime Task"
+    },
+    {
+      "id": "term-29a184b65c",
+      "name": "Graph"
+    },
+    {
+      "id": "term-2abb64379e",
+      "name": "Authorization"
+    },
+    {
+      "id": "term-2b0632f274",
+      "name": "Pre-training"
+    },
+    {
+      "id": "term-2b20ac5608",
+      "name": "Provenance"
+    },
+    {
+      "id": "term-2b9ccb8e7e",
+      "name": "MCP Host"
+    },
+    {
+      "id": "term-2bfa8013f7",
+      "name": "Query Plan"
+    },
+    {
+      "id": "term-2cc803743b",
+      "name": "Stopping Condition"
+    },
+    {
+      "id": "term-2cf64e447b",
+      "name": "Chain"
+    },
+    {
+      "id": "term-2d0f395ef8",
+      "name": "Trajectory Eval"
+    },
+    {
+      "id": "term-2e33266830",
+      "name": "TTL"
+    },
+    {
+      "id": "term-2ee8b5c783",
+      "name": "Prefill"
+    },
+    {
+      "id": "term-2f24b3f6de",
+      "name": "Kubernetes Deployment"
+    },
+    {
+      "id": "term-2f45a9f37a",
+      "name": "Handoff"
+    },
+    {
+      "id": "term-2f81ba1b3d",
+      "name": "Embedding"
+    },
+    {
+      "id": "term-2fffb71237",
+      "name": "Effect Eval"
+    },
+    {
+      "id": "term-303190fa14",
+      "name": "Deadlock"
+    },
+    {
+      "id": "term-3101a69a04",
+      "name": "OpenAPI"
+    },
+    {
+      "id": "term-32fbc6101a",
+      "name": "SameSite"
+    },
+    {
+      "id": "term-335c4c1e2f",
+      "name": "Component"
+    },
+    {
+      "id": "term-33e8a07b97",
+      "name": "Tenant Isolation"
+    },
+    {
+      "id": "term-3401db8cc2",
+      "name": "JSON-RPC"
+    },
+    {
+      "id": "term-341d953e69",
+      "name": "Replay"
+    },
+    {
+      "id": "term-3447210832",
+      "name": "Multi-Agent"
+    },
+    {
+      "id": "term-34b33e00b1",
+      "name": "Skill"
+    },
+    {
+      "id": "term-359a44a149",
+      "name": "Productization"
+    },
+    {
+      "id": "term-37eca5751d",
+      "name": "Render"
+    },
+    {
+      "id": "term-394448a354",
+      "name": "LCP"
+    },
+    {
+      "id": "term-3a1d9722ef",
+      "name": "Decision Record"
+    },
+    {
+      "id": "term-3b1a9f9c32",
+      "name": "Agentic RAG"
+    },
+    {
+      "id": "term-3b1b74c991",
+      "name": "CORS"
+    },
+    {
+      "id": "term-3b4923f6c2",
+      "name": "Knowledge Layer"
+    },
+    {
+      "id": "term-3b509b4fe2",
+      "name": "Lease"
+    },
+    {
+      "id": "term-3bc3e39c4f",
+      "name": "Error Accumulation"
+    },
+    {
+      "id": "term-3c39c4507f",
+      "name": "Reasoning Routing"
+    },
+    {
+      "id": "term-3dbabddf67",
+      "name": "Cache-aside"
+    },
+    {
+      "id": "term-3de4f901ff",
+      "name": "Server"
+    },
+    {
+      "id": "term-3e18b22485",
+      "name": "Backend Span"
+    },
+    {
+      "id": "term-3e9f2138a4",
+      "name": "Tool Result Contract"
+    },
+    {
+      "id": "term-3f36098fce",
+      "name": "B-tree"
+    },
+    {
+      "id": "term-4015b57a14",
+      "name": "Commit"
+    },
+    {
+      "id": "term-41afd85313",
+      "name": "Schema-first"
+    },
+    {
+      "id": "term-41c48b55fa",
+      "name": "Transaction"
+    },
+    {
+      "id": "term-431bdfc7b7",
+      "name": "Agent Loop"
+    },
+    {
+      "id": "term-434b0a6daa",
+      "name": "ACID"
+    },
+    {
+      "id": "term-441679e8a7",
+      "name": "React Server Components"
+    },
+    {
+      "id": "term-444462f6f4",
+      "name": "API Contract"
+    },
+    {
+      "id": "term-45c6b25aef",
+      "name": "Integration Test"
+    },
+    {
+      "id": "term-4605575612",
+      "name": "Attention Key"
+    },
+    {
+      "id": "term-4617ea1fe6",
+      "name": "Docker Image"
+    },
+    {
+      "id": "term-46de2f7389",
+      "name": "Call Stack"
+    },
+    {
+      "id": "term-4780e62c4f",
+      "name": "Durable Execution"
+    },
+    {
+      "id": "term-47d6ed932d",
+      "name": "AsyncLocalStorage"
+    },
+    {
+      "id": "term-4850b7907a",
+      "name": "Admission Control"
+    },
+    {
+      "id": "term-48aa63b9d1",
+      "name": "Partitioning"
+    },
+    {
+      "id": "term-4929fca9d4",
+      "name": "TLS"
+    },
+    {
+      "id": "term-494c5d59f3",
+      "name": "ISR"
+    },
+    {
+      "id": "term-49798f4232",
+      "name": "Shared State"
+    },
+    {
+      "id": "term-4994525591",
+      "name": "AI Platform"
+    },
+    {
+      "id": "term-4a78d263f3",
+      "name": "Subagent"
+    },
+    {
+      "id": "term-4b3d34e3b6",
+      "name": "Runtime Context"
+    },
+    {
+      "id": "term-4bcc0754c8",
+      "name": "Render Tree"
+    },
+    {
+      "id": "term-4cddc093d5",
+      "name": "LLM"
+    },
+    {
+      "id": "term-4cf5bc59be",
+      "name": "Service"
+    },
+    {
+      "id": "term-4dc37f61dd",
+      "name": "Connector"
+    },
+    {
+      "id": "term-4de99c71f4",
+      "name": "INP"
+    },
+    {
+      "id": "term-4e6efd269a",
+      "name": "Service Boundary"
+    },
+    {
+      "id": "term-4e8eb4841a",
+      "name": "Delivery Semantics"
+    },
+    {
+      "id": "term-4eaf489bda",
+      "name": "Dynamic Import"
+    },
+    {
+      "id": "term-4f7525e28a",
+      "name": "Reconciliation"
+    },
+    {
+      "id": "term-4f8278c89a",
+      "name": "Document"
+    },
+    {
+      "id": "term-4f8f232c70",
+      "name": "Minimal Sufficient Context"
+    },
+    {
+      "id": "term-4fe486f255",
+      "name": "CSR"
+    },
+    {
+      "id": "term-5006ed0248",
+      "name": "Event"
+    },
+    {
+      "id": "term-5038e18712",
+      "name": "JWT"
+    },
+    {
+      "id": "term-50d8b4a941",
+      "name": "UNKNOWN"
+    },
+    {
+      "id": "term-51c0ae4e67",
+      "name": "CSRF"
+    },
+    {
+      "id": "term-51fdd04556",
+      "name": "P2P"
+    },
+    {
+      "id": "term-539895d936",
+      "name": "Browser Agent"
+    },
+    {
+      "id": "term-53e20abf94",
+      "name": "Concurrency"
+    },
+    {
+      "id": "term-542ec8143e",
+      "name": "Trace Context"
+    },
+    {
+      "id": "term-54b64b0136",
+      "name": "Critical Rendering Path"
+    },
+    {
+      "id": "term-564289a5f3",
+      "name": "ABAC"
+    },
+    {
+      "id": "term-56b8e6bb95",
+      "name": "Governance"
+    },
+    {
+      "id": "term-56d3c9490b",
+      "name": "Timeout"
+    },
+    {
+      "id": "term-57ab81fe5d",
+      "name": "SSE"
+    },
+    {
+      "id": "term-59494695a3",
+      "name": "Approval"
+    },
+    {
+      "id": "term-59c826fc85",
+      "name": "Cookie"
+    },
+    {
+      "id": "term-5c05ac75ba",
+      "name": "Read-after-write"
+    },
+    {
+      "id": "term-5c2c26eaf0",
+      "name": "useEffect"
+    },
+    {
+      "id": "term-5c528ebc85",
+      "name": "Checkpoint"
+    },
+    {
+      "id": "term-5c5d623fd6",
+      "name": "Client Components"
+    },
+    {
+      "id": "term-5e718fc2b2",
+      "name": "Function Calling"
+    },
+    {
+      "id": "term-5f3670a630",
+      "name": "Control Plane"
+    },
+    {
+      "id": "term-5fa036a390",
+      "name": "CSP"
+    },
+    {
+      "id": "term-625870c023",
+      "name": "Multi-tenancy"
+    },
+    {
+      "id": "term-6288c74c29",
+      "name": "Composite"
+    },
+    {
+      "id": "term-6325f8c630",
+      "name": "Span"
+    },
+    {
+      "id": "term-6384490462",
+      "name": "Authentication Flow"
+    },
+    {
+      "id": "term-657a2d174d",
+      "name": "Context Assembly"
+    },
+    {
+      "id": "term-669f7cd025",
+      "name": "Relational Database"
+    },
+    {
+      "id": "term-66f5c87193",
+      "name": "Authority"
+    },
+    {
+      "id": "term-66f79d8a63",
+      "name": "History"
+    },
+    {
+      "id": "term-67c371fd20",
+      "name": "WebSocket"
+    },
+    {
+      "id": "term-68d1dae1af",
+      "name": "Effect"
+    },
+    {
+      "id": "term-692fa1dea3",
+      "name": "Capability Layer"
+    },
+    {
+      "id": "term-69a537093f",
+      "name": "RAG"
+    },
+    {
+      "id": "term-6b6643ec3d",
+      "name": "Conflict Gate"
+    },
+    {
+      "id": "term-6b810c90aa",
+      "name": "ReAct"
+    },
+    {
+      "id": "term-6bab147e47",
+      "name": "Hook"
+    },
+    {
+      "id": "term-6c9493fa9c",
+      "name": "Event-driven Collaboration"
+    },
+    {
+      "id": "term-6cdb7bac28",
+      "name": "Hybrid Retrieval"
+    },
+    {
+      "id": "term-6ce375e315",
+      "name": "TCP"
+    },
+    {
+      "id": "term-6d244f5836",
+      "name": "Permission"
+    },
+    {
+      "id": "term-6e9b4af64b",
+      "name": "Protocol"
+    },
+    {
+      "id": "term-6ec2c77a69",
+      "name": "SSR Data Flow"
+    },
+    {
+      "id": "term-6f4965e247",
+      "name": "Integration Contract"
+    },
+    {
+      "id": "term-6f69eb7dc2",
+      "name": "Selection"
+    },
+    {
+      "id": "term-7016f6938e",
+      "name": "Capability Registry"
+    },
+    {
+      "id": "term-708269ae00",
+      "name": "Retry"
+    },
+    {
+      "id": "term-71caead100",
+      "name": "Private Context"
+    },
+    {
+      "id": "term-7233fb3683",
+      "name": "Deployment"
+    },
+    {
+      "id": "term-733ae62459",
+      "name": "Schema Validation"
+    },
+    {
+      "id": "term-748d14d962",
+      "name": "DPO"
+    },
+    {
+      "id": "term-74c69adbd4",
+      "name": "Partial Prerendering"
+    },
+    {
+      "id": "term-7500a47d12",
+      "name": "Work Environment"
+    },
+    {
+      "id": "term-75b7da1921",
+      "name": "Priority Queue"
+    },
+    {
+      "id": "term-76989984ee",
+      "name": "Context Isolation"
+    },
+    {
+      "id": "term-76e2efd6fd",
+      "name": "API Client Generation"
+    },
+    {
+      "id": "term-779a7aaa4e",
+      "name": "Code Splitting"
+    },
+    {
+      "id": "term-77b5f8e343",
+      "name": "HTTP"
+    },
+    {
+      "id": "term-77db4fe018",
+      "name": "Tool Schema"
+    },
+    {
+      "id": "term-77e00091e6",
+      "name": "OAuth 2.0"
+    },
+    {
+      "id": "term-77eb1db6cb",
+      "name": "Router"
+    },
+    {
+      "id": "term-794c422cb5",
+      "name": "Dense Retrieval"
+    },
+    {
+      "id": "term-796b66b702",
+      "name": "Handoff Context"
+    },
+    {
+      "id": "term-79fbade86a",
+      "name": "Event Capturing"
+    },
+    {
+      "id": "term-7ac11ff175",
+      "name": "Memory Retrieval"
+    },
+    {
+      "id": "term-7babc233de",
+      "name": "Log"
+    },
+    {
+      "id": "term-7c02c7e8a0",
+      "name": "Observation"
+    },
+    {
+      "id": "term-7c65f0df68",
+      "name": "State Owner"
+    },
+    {
+      "id": "term-7cd9148ec5",
+      "name": "Query"
+    },
+    {
+      "id": "term-7ddb962526",
+      "name": "Replication"
+    },
+    {
+      "id": "term-7fbb727db4",
+      "name": "Task"
+    },
+    {
+      "id": "term-8078b290e0",
+      "name": "Regression Eval"
+    },
+    {
+      "id": "term-808c8a73ed",
+      "name": "OpenTelemetry"
+    },
+    {
+      "id": "term-80d5411510",
+      "name": "BFF"
+    },
+    {
+      "id": "term-814a6ab836",
+      "name": "Cache Stampede"
+    },
+    {
+      "id": "term-816b2d5b79",
+      "name": "Side Effect"
+    },
+    {
+      "id": "term-81c5d49be9",
+      "name": "Memory"
+    },
+    {
+      "id": "term-81e4a5523e",
+      "name": "Budget"
+    },
+    {
+      "id": "term-81f99b579f",
+      "name": "Agent Card"
+    },
+    {
+      "id": "term-8217af2d32",
+      "name": "Partition Pruning"
+    },
+    {
+      "id": "term-822bc13e2d",
+      "name": "Eval"
+    },
+    {
+      "id": "term-8233032b80",
+      "name": "Solution Design"
+    },
+    {
+      "id": "term-82de00eba8",
+      "name": "Structured Output"
+    },
+    {
+      "id": "term-8355dbc53d",
+      "name": "MCP Client"
+    },
+    {
+      "id": "term-844e392a5d",
+      "name": "Reliability"
+    },
+    {
+      "id": "term-847e501d04",
+      "name": "Tenant Context"
+    },
+    {
+      "id": "term-848278c4fe",
+      "name": "Blackboard"
+    },
+    {
+      "id": "term-899531e0f8",
+      "name": "Workflow"
+    },
+    {
+      "id": "term-89f216aaa6",
+      "name": "HTML Parsing"
+    },
+    {
+      "id": "term-8b60e9d739",
+      "name": "Recovery"
+    },
+    {
+      "id": "term-8c2fd8442f",
+      "name": "Promise"
+    },
+    {
+      "id": "term-8c5024b379",
+      "name": "Idempotency Key"
+    },
+    {
+      "id": "term-8c6adf2161",
+      "name": "Liveness Probe"
+    },
+    {
+      "id": "term-8e6c548253",
+      "name": "Same-origin Policy"
+    },
+    {
+      "id": "term-8eaee405c3",
+      "name": "XSS"
+    },
+    {
+      "id": "term-8ed9cd04f2",
+      "name": "Current Truth"
+    },
+    {
+      "id": "term-8fdab0d793",
+      "name": "Event Bubbling"
+    },
+    {
+      "id": "term-903272216d",
+      "name": "Lexical Retrieval"
+    },
+    {
+      "id": "term-90c5d1358d",
+      "name": "Provider"
+    },
+    {
+      "id": "term-90de35a580",
+      "name": "Node.js"
+    },
+    {
+      "id": "term-91edd4009c",
+      "name": "Pod"
+    },
+    {
+      "id": "term-9236e026cc",
+      "name": "Transformer"
+    },
+    {
+      "id": "term-926131580c",
+      "name": "Health Check"
+    },
+    {
+      "id": "term-92d4d25078",
+      "name": "Trace ID"
+    },
+    {
+      "id": "term-93704094f8",
+      "name": "Operation ID"
+    },
+    {
+      "id": "term-937adac2c1",
+      "name": "RUM"
+    },
+    {
+      "id": "term-93efb46bf9",
+      "name": "Parent Task"
+    },
+    {
+      "id": "term-94a9aae584",
+      "name": "Cache Components"
+    },
+    {
+      "id": "term-95bba9729a",
+      "name": "Model Gateway"
+    },
+    {
+      "id": "term-95e08528b8",
+      "name": "Context Window"
+    },
+    {
+      "id": "term-95feb49f75",
+      "name": "Telemetry"
+    },
+    {
+      "id": "term-96940bab9b",
+      "name": "Idempotency"
+    },
+    {
+      "id": "term-97fdaf2b1d",
+      "name": "Sparse Retrieval"
+    },
+    {
+      "id": "term-98989e06bd",
+      "name": "API Gateway"
+    },
+    {
+      "id": "term-98edbf6a9b",
+      "name": "Tool Call"
+    },
+    {
+      "id": "term-9904fd3a83",
+      "name": "Task Eval"
+    },
+    {
+      "id": "term-9a40ef4495",
+      "name": "Worker Thread"
+    },
+    {
+      "id": "term-9ac784020c",
+      "name": "Customer Data Boundary"
+    },
+    {
+      "id": "term-9b7c5b3523",
+      "name": "Capability Negotiation"
+    },
+    {
+      "id": "term-9bb81c113e",
+      "name": "Source of Truth"
+    },
+    {
+      "id": "term-9bc3f4bf9a",
+      "name": "Effect Boundary"
+    },
+    {
+      "id": "term-9be9eab784",
+      "name": "Isolation Level"
+    },
+    {
+      "id": "term-9c7e05e586",
+      "name": "Prompt"
+    },
+    {
+      "id": "term-9caed18b39",
+      "name": "CDN"
+    },
+    {
+      "id": "term-9db160257b",
+      "name": "State Reconciliation"
+    },
+    {
+      "id": "term-9ed037b849",
+      "name": "Sandbox"
+    },
+    {
+      "id": "term-9f00fad98b",
+      "name": "Policy"
+    },
+    {
+      "id": "term-9fe5c9c841",
+      "name": "Artifact Eval"
+    },
+    {
+      "id": "term-a033a528b6",
+      "name": "API"
+    },
+    {
+      "id": "term-a206522662",
+      "name": "Fiber"
+    },
+    {
+      "id": "term-a279fe916f",
+      "name": "Workspace"
+    },
+    {
+      "id": "term-a2b41bbaa7",
+      "name": "Resume"
+    },
+    {
+      "id": "term-a30d80b2d9",
+      "name": "CLS"
+    },
+    {
+      "id": "term-a31ed664e5",
+      "name": "JSON Schema"
+    },
+    {
+      "id": "term-a43aa2b3cc",
+      "name": "Keyword"
+    },
+    {
+      "id": "term-a4b811f8e4",
+      "name": "Quota"
+    },
+    {
+      "id": "term-a5151b6e4c",
+      "name": "Post-training"
+    },
+    {
+      "id": "term-a521fc6be1",
+      "name": "RAG Eval"
+    },
+    {
+      "id": "term-a54087722f",
+      "name": "Decoding"
+    },
+    {
+      "id": "term-a915bf6996",
+      "name": "Token Stream"
+    },
+    {
+      "id": "term-aa4a5f8125",
+      "name": "State"
+    },
+    {
+      "id": "term-aa60968734",
+      "name": "Props"
+    },
+    {
+      "id": "term-aa69c3532f",
+      "name": "SFT"
+    },
+    {
+      "id": "term-aab0d36eda",
+      "name": "Deep Research"
+    },
+    {
+      "id": "term-aacd3103f3",
+      "name": "Scope"
+    },
+    {
+      "id": "term-ab34e22e38",
+      "name": "Suspense"
+    },
+    {
+      "id": "term-ab9ccafc16",
+      "name": "Knowledge Source"
+    },
+    {
+      "id": "term-abbc90e006",
+      "name": "DNS"
+    },
+    {
+      "id": "term-abfb92ec00",
+      "name": "Agentic Retrieval"
+    },
+    {
+      "id": "term-ac63f36343",
+      "name": "Grounding"
+    },
+    {
+      "id": "term-acc646e6dc",
+      "name": "Compensation"
+    },
+    {
+      "id": "term-ad85f6dc58",
+      "name": "Contract-first"
+    },
+    {
+      "id": "term-af77b687c5",
+      "name": "Reasoning Model"
+    },
+    {
+      "id": "term-aff69df1d4",
+      "name": "Instruct Model"
+    },
+    {
+      "id": "term-b03592806e",
+      "name": "Cache"
+    },
+    {
+      "id": "term-b1033ae408",
+      "name": "Executor"
+    },
+    {
+      "id": "term-b284f94827",
+      "name": "Origin"
+    },
+    {
+      "id": "term-b37f79b5e4",
+      "name": "State Update"
+    },
+    {
+      "id": "term-b45fccd35c",
+      "name": "Permission Filtering"
+    },
+    {
+      "id": "term-b512b12bae",
+      "name": "Transaction Boundary"
+    },
+    {
+      "id": "term-b66a234b9f",
+      "name": "Capability Discovery"
+    },
+    {
+      "id": "term-b7c4cd968c",
+      "name": "Agent Event Stream"
+    },
+    {
+      "id": "term-b7ddb42415",
+      "name": "Multi-Head Attention"
+    },
+    {
+      "id": "term-b9936b288c",
+      "name": "worker_threads"
+    },
+    {
+      "id": "term-ba1d32fcf8",
+      "name": "Lifetime"
+    },
+    {
+      "id": "term-ba43467dd8",
+      "name": "Retriever"
+    },
+    {
+      "id": "term-bd45c88842",
+      "name": "Data Consistency"
+    },
+    {
+      "id": "term-be461bb883",
+      "name": "Agent Explosion"
+    },
+    {
+      "id": "term-be65d27ae0",
+      "name": "DOM"
+    },
+    {
+      "id": "term-c077d67a92",
+      "name": "ESM"
+    },
+    {
+      "id": "term-c0d4ab1e14",
+      "name": "Agent Run"
+    },
+    {
+      "id": "term-c283e375ed",
+      "name": "Thread"
+    },
+    {
+      "id": "term-c2c45258cc",
+      "name": "Discovery"
+    },
+    {
+      "id": "term-c2e2d66213",
+      "name": "Process"
+    },
+    {
+      "id": "term-c3ecbf70b7",
+      "name": "MCP"
+    },
+    {
+      "id": "term-c3ee137d4f",
+      "name": "Table"
+    },
+    {
+      "id": "term-c48d39d2dc",
+      "name": "Acceptance Criteria"
+    },
+    {
+      "id": "term-c5a39a3a7b",
+      "name": "Metric"
+    },
+    {
+      "id": "term-c5be5b3d86",
+      "name": "Capability"
+    },
+    {
+      "id": "term-c62aaaf1e8",
+      "name": "SSR"
+    },
+    {
+      "id": "term-c6562d1504",
+      "name": "External Truth"
+    },
+    {
+      "id": "term-c7a978cc52",
+      "name": "TTFB"
+    },
+    {
+      "id": "term-c7b24069a3",
+      "name": "Self-Attention"
+    },
+    {
+      "id": "term-c854cb2901",
+      "name": "Model Routing"
+    },
+    {
+      "id": "term-c861fd5482",
+      "name": "Delivery Gate"
+    },
+    {
+      "id": "term-c9ba7ffd04",
+      "name": "Event Loop"
+    },
+    {
+      "id": "term-caddfc5d9c",
+      "name": "Tree Shaking"
+    },
+    {
+      "id": "term-cb083cf0f6",
+      "name": "Requirement Discovery"
+    },
+    {
+      "id": "term-cb440eae28",
+      "name": "Evidence-bound Approval"
+    },
+    {
+      "id": "term-cb7a82c317",
+      "name": "Consumer"
+    },
+    {
+      "id": "term-cc3543f7cb",
+      "name": "Platformization"
+    },
+    {
+      "id": "term-cd0c04e8c1",
+      "name": "Non-blocking I/O"
+    },
+    {
+      "id": "term-cd4bcb2074",
+      "name": "Tool Calling"
+    },
+    {
+      "id": "term-cd6642e212",
+      "name": "Chunking"
+    },
+    {
+      "id": "term-cdaa6b8937",
+      "name": "Aging"
+    },
+    {
+      "id": "term-ce4705349b",
+      "name": "MVCC"
+    },
+    {
+      "id": "term-d0005c2ccd",
+      "name": "Graceful Shutdown"
+    },
+    {
+      "id": "term-d0278de5f6",
+      "name": "Attention"
+    },
+    {
+      "id": "term-d0fa554885",
+      "name": "Trace"
+    },
+    {
+      "id": "term-d2a04d7130",
+      "name": "Client"
+    },
+    {
+      "id": "term-d2effa34d1",
+      "name": "Runtime State"
+    },
+    {
+      "id": "term-d42aa017cf",
+      "name": "Streaming Rendering"
+    },
+    {
+      "id": "term-d6bb86abbc",
+      "name": "Tool Contract"
+    },
+    {
+      "id": "term-d7c47447f8",
+      "name": "OpenID Connect"
+    },
+    {
+      "id": "term-d83f4a2595",
+      "name": "Tool Side Effect"
+    },
+    {
+      "id": "term-d96d7fcf37",
+      "name": "BM25"
+    },
+    {
+      "id": "term-d9ec3630bd",
+      "name": "Generation Eval"
+    },
+    {
+      "id": "term-db1dfd45b1",
+      "name": "SQL"
+    },
+    {
+      "id": "term-db45e234b4",
+      "name": "Saga"
+    },
+    {
+      "id": "term-db9a022b75",
+      "name": "Goal"
+    },
+    {
+      "id": "term-dbab387052",
+      "name": "Distributed Trace"
+    },
+    {
+      "id": "term-dc39c6796e",
+      "name": "Load Shedding"
+    },
+    {
+      "id": "term-dcd9aa5c2b",
+      "name": "PerformanceObserver"
+    },
+    {
+      "id": "term-dd1ea017bf",
+      "name": "RBAC"
+    },
+    {
+      "id": "term-dd70fee731",
+      "name": "Jitter"
+    },
+    {
+      "id": "term-dddba30368",
+      "name": "Streaming UI"
+    },
+    {
+      "id": "term-de58e2b17c",
+      "name": "Dependency"
+    },
+    {
+      "id": "term-df4013ca70",
+      "name": "Concurrency Limit"
+    },
+    {
+      "id": "term-e023df3f4b",
+      "name": "Reasoning Budget"
+    },
+    {
+      "id": "term-e06379cdac",
+      "name": "Agent Trace"
+    },
+    {
+      "id": "term-e090273030",
+      "name": "Streamable HTTP"
+    },
+    {
+      "id": "term-e0e05b06ba",
+      "name": "Session State"
+    },
+    {
+      "id": "term-e117797422",
+      "name": "Lock"
+    },
+    {
+      "id": "term-e3bf51473b",
+      "name": "RLHF"
+    },
+    {
+      "id": "term-e3c95cbb8a",
+      "name": "Liveness"
+    },
+    {
+      "id": "term-e492d7a0bf",
+      "name": "Responsibility Isolation"
+    },
+    {
+      "id": "term-e540cdd132",
+      "name": "Index"
+    },
+    {
+      "id": "term-e5875dfc01",
+      "name": "Tool Routing"
+    },
+    {
+      "id": "term-e60b6dc473",
+      "name": "Outbox"
+    },
+    {
+      "id": "term-e6331d57d0",
+      "name": "Bundler"
+    },
+    {
+      "id": "term-e64b40f2bd",
+      "name": "RPC"
+    },
+    {
+      "id": "term-e66e29225b",
+      "name": "Operational Handoff"
+    },
+    {
+      "id": "term-e6d284636f",
+      "name": "Server Data Fetching"
+    },
+    {
+      "id": "term-e6fb06210f",
+      "name": "Code"
+    },
+    {
+      "id": "term-e7520451c9",
+      "name": "Tool Surface"
+    },
+    {
+      "id": "term-e76dce35ea",
+      "name": "Circuit Breaker"
+    },
+    {
+      "id": "term-e9b54646a4",
+      "name": "Server Action"
+    },
+    {
+      "id": "term-eb830bc025",
+      "name": "Readiness"
+    },
+    {
+      "id": "term-eb9424eb30",
+      "name": "Reranker"
+    },
+    {
+      "id": "term-ec0188a088",
+      "name": "Feedback Density"
+    },
+    {
+      "id": "term-ecc2bbf343",
+      "name": "Truth Commit"
+    },
+    {
+      "id": "term-ee977806d7",
+      "name": "Token"
+    },
+    {
+      "id": "term-eed9295638",
+      "name": "Data Plane"
+    },
+    {
+      "id": "term-ef98362b8a",
+      "name": "Browser"
+    },
+    {
+      "id": "term-efa3399472",
+      "name": "A2A"
+    },
+    {
+      "id": "term-efe00a9b59",
+      "name": "Exponential Backoff"
+    },
+    {
+      "id": "term-f09dcbc31e",
+      "name": "DTO"
+    },
+    {
+      "id": "term-f0a3d08898",
+      "name": "Release Health"
+    },
+    {
+      "id": "term-f10f5366d7",
+      "name": "Repeatable Read"
+    },
+    {
+      "id": "term-f2d7d94807",
+      "name": "Build Artifact"
+    },
+    {
+      "id": "term-f32b67c7e2",
+      "name": "Value"
+    },
+    {
+      "id": "term-f36e3d0d92",
+      "name": "Agent Routing"
+    },
+    {
+      "id": "term-f45350fb9e",
+      "name": "Child Task"
+    },
+    {
+      "id": "term-f57ebcd46c",
+      "name": "MCP Resource"
+    },
+    {
+      "id": "term-f5dc56292e",
+      "name": "Authorization Flow"
+    },
+    {
+      "id": "term-f64f0f6a59",
+      "name": "Approval UI"
+    },
+    {
+      "id": "term-f7533d67a1",
+      "name": "Optimistic Lock"
+    },
+    {
+      "id": "term-f799949692",
+      "name": "Bulkhead"
+    },
+    {
+      "id": "term-f7da1a742f",
+      "name": "Coordination Tax"
+    },
+    {
+      "id": "term-f8223ab409",
+      "name": "Pessimistic Lock"
+    },
+    {
+      "id": "term-f9f7917226",
+      "name": "Ack"
+    },
+    {
+      "id": "term-fa39de9d39",
+      "name": "Failure Slice"
+    },
+    {
+      "id": "term-faa1ab7901",
+      "name": "Compile-time Type"
+    },
+    {
+      "id": "term-fbaad0e942",
+      "name": "MCP Tool"
+    },
+    {
+      "id": "term-fbd34a2b6e",
+      "name": "Module"
+    },
+    {
+      "id": "term-fbe19d8b68",
+      "name": "Top-k"
+    },
+    {
+      "id": "term-fcbc333bd1",
+      "name": "Trust"
+    },
+    {
+      "id": "term-fcbdc4c271",
+      "name": "Session"
+    },
+    {
+      "id": "term-fe7042cb74",
+      "name": "Schema"
+    },
+    {
+      "id": "term-fec036100c",
+      "name": "At-least-once"
+    },
+    {
+      "id": "term-ff3a6f3b41",
+      "name": "Rollback"
+    }
+  ],
+  "edges": [
+    {
+      "from": "term-d2a04d7130",
+      "to": "term-088e29b0ab",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Client",
+      "toName": "Request"
+    },
+    {
+      "from": "term-088e29b0ab",
+      "to": "term-77b5f8e343",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Request",
+      "toName": "HTTP"
+    },
+    {
+      "from": "term-77b5f8e343",
+      "to": "term-0ec6d15054",
+      "type": "PREREQUISITE_OF",
+      "fromName": "HTTP",
+      "toName": "Response"
+    },
+    {
+      "from": "term-abbc90e006",
+      "to": "term-6ce375e315",
+      "type": "PREREQUISITE_OF",
+      "fromName": "DNS",
+      "toName": "TCP"
+    },
+    {
+      "from": "term-6ce375e315",
+      "to": "term-4929fca9d4",
+      "type": "PREREQUISITE_OF",
+      "fromName": "TCP",
+      "toName": "TLS"
+    },
+    {
+      "from": "term-4929fca9d4",
+      "to": "term-77b5f8e343",
+      "type": "PREREQUISITE_OF",
+      "fromName": "TLS",
+      "toName": "HTTP"
+    },
+    {
+      "from": "term-a033a528b6",
+      "to": "term-fe7042cb74",
+      "type": "PREREQUISITE_OF",
+      "fromName": "API",
+      "toName": "Schema"
+    },
+    {
+      "from": "term-fe7042cb74",
+      "to": "term-733ae62459",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Schema",
+      "toName": "Schema Validation"
+    },
+    {
+      "from": "term-c2e2d66213",
+      "to": "term-c283e375ed",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Process",
+      "toName": "Thread"
+    },
+    {
+      "from": "term-c283e375ed",
+      "to": "term-53e20abf94",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Thread",
+      "toName": "Concurrency"
+    },
+    {
+      "from": "term-1769396381",
+      "to": "term-2abb64379e",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Authentication",
+      "toName": "Authorization"
+    },
+    {
+      "from": "term-2abb64379e",
+      "to": "term-6d244f5836",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Authorization",
+      "toName": "Permission"
+    },
+    {
+      "from": "term-7babc233de",
+      "to": "term-c5a39a3a7b",
+      "type": "PART_OF",
+      "fromName": "Log",
+      "toName": "Metric"
+    },
+    {
+      "from": "term-c5a39a3a7b",
+      "to": "term-d0fa554885",
+      "type": "PART_OF",
+      "fromName": "Metric",
+      "toName": "Trace"
+    },
+    {
+      "from": "term-d0fa554885",
+      "to": "term-6325f8c630",
+      "type": "PART_OF",
+      "fromName": "Trace",
+      "toName": "Span"
+    },
+    {
+      "from": "term-92d4d25078",
+      "to": "term-01054424b1",
+      "type": "PART_OF",
+      "fromName": "Trace ID",
+      "toName": "Span ID"
+    },
+    {
+      "from": "term-d0fa554885",
+      "to": "term-808c8a73ed",
+      "type": "IMPLEMENTED_BY",
+      "fromName": "Trace",
+      "toName": "OpenTelemetry"
+    },
+    {
+      "from": "term-c5a39a3a7b",
+      "to": "term-808c8a73ed",
+      "type": "IMPLEMENTED_BY",
+      "fromName": "Metric",
+      "toName": "OpenTelemetry"
+    },
+    {
+      "from": "term-7babc233de",
+      "to": "term-808c8a73ed",
+      "type": "IMPLEMENTED_BY",
+      "fromName": "Log",
+      "toName": "OpenTelemetry"
+    },
+    {
+      "from": "term-242c3a7007",
+      "to": "term-ee977806d7",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Tokenization",
+      "toName": "Token"
+    },
+    {
+      "from": "term-ee977806d7",
+      "to": "term-95e08528b8",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Token",
+      "toName": "Context Window"
+    },
+    {
+      "from": "term-9236e026cc",
+      "to": "term-4cddc093d5",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Transformer",
+      "toName": "LLM"
+    },
+    {
+      "from": "term-4cddc093d5",
+      "to": "term-9c7e05e586",
+      "type": "PREREQUISITE_OF",
+      "fromName": "LLM",
+      "toName": "Prompt"
+    },
+    {
+      "from": "term-c7b24069a3",
+      "to": "term-d0278de5f6",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Self-Attention",
+      "toName": "Attention"
+    },
+    {
+      "from": "term-d0278de5f6",
+      "to": "term-b7ddb42415",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Attention",
+      "toName": "Multi-Head Attention"
+    },
+    {
+      "from": "term-7cd9148ec5",
+      "to": "term-d0278de5f6",
+      "type": "PART_OF",
+      "fromName": "Query",
+      "toName": "Attention"
+    },
+    {
+      "from": "term-4605575612",
+      "to": "term-d0278de5f6",
+      "type": "PART_OF",
+      "fromName": "Key",
+      "toName": "Attention"
+    },
+    {
+      "from": "term-f32b67c7e2",
+      "to": "term-d0278de5f6",
+      "type": "PART_OF",
+      "fromName": "Value",
+      "toName": "Attention"
+    },
+    {
+      "from": "term-0397692092",
+      "to": "term-9236e026cc",
+      "type": "PART_OF",
+      "fromName": "RoPE",
+      "toName": "Transformer"
+    },
+    {
+      "from": "term-1f7dba4446",
+      "to": "term-a54087722f",
+      "type": "PART_OF",
+      "fromName": "KV Cache",
+      "toName": "Decoding"
+    },
+    {
+      "from": "term-2ee8b5c783",
+      "to": "term-a54087722f",
+      "type": "PART_OF",
+      "fromName": "Prefill",
+      "toName": "Decoding"
+    },
+    {
+      "from": "term-2b0632f274",
+      "to": "term-a5151b6e4c",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Pre-training",
+      "toName": "Post-training"
+    },
+    {
+      "from": "term-a5151b6e4c",
+      "to": "term-aa69c3532f",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Post-training",
+      "toName": "SFT"
+    },
+    {
+      "from": "term-e3bf51473b",
+      "to": "term-a5151b6e4c",
+      "type": "PART_OF",
+      "fromName": "RLHF",
+      "toName": "Post-training"
+    },
+    {
+      "from": "term-748d14d962",
+      "to": "term-a5151b6e4c",
+      "type": "PART_OF",
+      "fromName": "DPO",
+      "toName": "Post-training"
+    },
+    {
+      "from": "term-19d339e008",
+      "to": "term-af77b687c5",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Test-time Compute",
+      "toName": "Reasoning Model"
+    },
+    {
+      "from": "term-e023df3f4b",
+      "to": "term-3c39c4507f",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Reasoning Budget",
+      "toName": "Reasoning Routing"
+    },
+    {
+      "from": "term-82de00eba8",
+      "to": "term-a31ed664e5",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Structured Output",
+      "toName": "JSON Schema"
+    },
+    {
+      "from": "term-a31ed664e5",
+      "to": "term-77db4fe018",
+      "type": "PREREQUISITE_OF",
+      "fromName": "JSON Schema",
+      "toName": "Tool Schema"
+    },
+    {
+      "from": "term-77db4fe018",
+      "to": "term-cd4bcb2074",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Tool Schema",
+      "toName": "Tool Calling"
+    },
+    {
+      "from": "term-cd4bcb2074",
+      "to": "term-0bc825e389",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Tool Calling",
+      "toName": "Tool Result"
+    },
+    {
+      "from": "term-5e718fc2b2",
+      "to": "term-cd4bcb2074",
+      "type": "CONTRASTS_WITH",
+      "fromName": "Function Calling",
+      "toName": "Tool Calling"
+    },
+    {
+      "from": "term-1937c4c28f",
+      "to": "term-c5be5b3d86",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Tool",
+      "toName": "Capability"
+    },
+    {
+      "from": "term-c5be5b3d86",
+      "to": "term-7016f6938e",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Capability",
+      "toName": "Capability Registry"
+    },
+    {
+      "from": "term-7016f6938e",
+      "to": "term-c2c45258cc",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Capability Registry",
+      "toName": "Discovery"
+    },
+    {
+      "from": "term-c2c45258cc",
+      "to": "term-6f69eb7dc2",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Discovery",
+      "toName": "Selection"
+    },
+    {
+      "from": "term-d6bb86abbc",
+      "to": "term-3e9f2138a4",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Tool Contract",
+      "toName": "Tool Result Contract"
+    },
+    {
+      "from": "term-816b2d5b79",
+      "to": "term-93704094f8",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Side Effect",
+      "toName": "Operation ID"
+    },
+    {
+      "from": "term-93704094f8",
+      "to": "term-8c5024b379",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Operation ID",
+      "toName": "Idempotency Key"
+    },
+    {
+      "from": "term-1937c4c28f",
+      "to": "term-34b33e00b1",
+      "type": "CONTRASTS_WITH",
+      "fromName": "Tool",
+      "toName": "Skill"
+    },
+    {
+      "from": "term-c5be5b3d86",
+      "to": "term-6d244f5836",
+      "type": "CONTRASTS_WITH",
+      "fromName": "Capability",
+      "toName": "Permission"
+    },
+    {
+      "from": "term-4f8278c89a",
+      "to": "term-cd6642e212",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Document",
+      "toName": "Chunking"
+    },
+    {
+      "from": "term-cd6642e212",
+      "to": "term-2f81ba1b3d",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Chunking",
+      "toName": "Embedding"
+    },
+    {
+      "from": "term-2f81ba1b3d",
+      "to": "term-027c1146b1",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Embedding",
+      "toName": "Vector"
+    },
+    {
+      "from": "term-2f81ba1b3d",
+      "to": "term-794c422cb5",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Embedding",
+      "toName": "Dense Retrieval"
+    },
+    {
+      "from": "term-794c422cb5",
+      "to": "term-6cdb7bac28",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Dense Retrieval",
+      "toName": "Hybrid Retrieval"
+    },
+    {
+      "from": "term-6cdb7bac28",
+      "to": "term-eb9424eb30",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Hybrid Retrieval",
+      "toName": "Reranker"
+    },
+    {
+      "from": "term-903272216d",
+      "to": "term-d96d7fcf37",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Lexical Retrieval",
+      "toName": "BM25"
+    },
+    {
+      "from": "term-794c422cb5",
+      "to": "term-6cdb7bac28",
+      "type": "PART_OF",
+      "fromName": "Dense Retrieval",
+      "toName": "Hybrid Retrieval"
+    },
+    {
+      "from": "term-97fdaf2b1d",
+      "to": "term-6cdb7bac28",
+      "type": "PART_OF",
+      "fromName": "Sparse Retrieval",
+      "toName": "Hybrid Retrieval"
+    },
+    {
+      "from": "term-ba43467dd8",
+      "to": "term-fbe19d8b68",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Retriever",
+      "toName": "Top-k"
+    },
+    {
+      "from": "term-05e4ab3f6a",
+      "to": "term-69a537093f",
+      "type": "PART_OF",
+      "fromName": "Freshness",
+      "toName": "RAG"
+    },
+    {
+      "from": "term-66f5c87193",
+      "to": "term-69a537093f",
+      "type": "PART_OF",
+      "fromName": "Authority",
+      "toName": "RAG"
+    },
+    {
+      "from": "term-2b20ac5608",
+      "to": "term-69a537093f",
+      "type": "PART_OF",
+      "fromName": "Provenance",
+      "toName": "RAG"
+    },
+    {
+      "from": "term-69a537093f",
+      "to": "term-657a2d174d",
+      "type": "PREREQUISITE_OF",
+      "fromName": "RAG",
+      "toName": "Context Assembly"
+    },
+    {
+      "from": "term-657a2d174d",
+      "to": "term-14e1083ffa",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Context Assembly",
+      "toName": "Citation"
+    },
+    {
+      "from": "term-abfb92ec00",
+      "to": "term-3b1a9f9c32",
+      "type": "PART_OF",
+      "fromName": "Agentic Retrieval",
+      "toName": "Agentic RAG"
+    },
+    {
+      "from": "term-aab0d36eda",
+      "to": "term-3b1a9f9c32",
+      "type": "USES",
+      "fromName": "Deep Research",
+      "toName": "Agentic RAG"
+    },
+    {
+      "from": "term-6e9b4af64b",
+      "to": "term-3401db8cc2",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Protocol",
+      "toName": "JSON-RPC"
+    },
+    {
+      "from": "term-3401db8cc2",
+      "to": "term-c3ecbf70b7",
+      "type": "PREREQUISITE_OF",
+      "fromName": "JSON-RPC",
+      "toName": "MCP"
+    },
+    {
+      "from": "term-d2a04d7130",
+      "to": "term-8355dbc53d",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Client",
+      "toName": "MCP Client"
+    },
+    {
+      "from": "term-8355dbc53d",
+      "to": "term-2b9ccb8e7e",
+      "type": "PREREQUISITE_OF",
+      "fromName": "MCP Client",
+      "toName": "MCP Host"
+    },
+    {
+      "from": "term-3de4f901ff",
+      "to": "term-17d38c23a7",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Server",
+      "toName": "MCP Server"
+    },
+    {
+      "from": "term-fbaad0e942",
+      "to": "term-17d38c23a7",
+      "type": "PART_OF",
+      "fromName": "MCP Tool",
+      "toName": "MCP Server"
+    },
+    {
+      "from": "term-f57ebcd46c",
+      "to": "term-17d38c23a7",
+      "type": "PART_OF",
+      "fromName": "MCP Resource",
+      "toName": "MCP Server"
+    },
+    {
+      "from": "term-0a3b4e7244",
+      "to": "term-17d38c23a7",
+      "type": "PART_OF",
+      "fromName": "MCP Prompt",
+      "toName": "MCP Server"
+    },
+    {
+      "from": "term-b66a234b9f",
+      "to": "term-c3ecbf70b7",
+      "type": "PART_OF",
+      "fromName": "Capability Discovery",
+      "toName": "MCP"
+    },
+    {
+      "from": "term-9b7c5b3523",
+      "to": "term-c3ecbf70b7",
+      "type": "PART_OF",
+      "fromName": "Capability Negotiation",
+      "toName": "MCP"
+    },
+    {
+      "from": "term-e090273030",
+      "to": "term-c3ecbf70b7",
+      "type": "PART_OF",
+      "fromName": "Streamable HTTP",
+      "toName": "MCP"
+    },
+    {
+      "from": "term-25716a9a64",
+      "to": "term-c3ecbf70b7",
+      "type": "PART_OF",
+      "fromName": "stdio",
+      "toName": "MCP"
+    },
+    {
+      "from": "term-cd4bcb2074",
+      "to": "term-c3ecbf70b7",
+      "type": "CONTRASTS_WITH",
+      "fromName": "Tool Calling",
+      "toName": "MCP"
+    },
+    {
+      "from": "term-c3ecbf70b7",
+      "to": "term-efa3399472",
+      "type": "CONTRASTS_WITH",
+      "fromName": "MCP",
+      "toName": "A2A"
+    },
+    {
+      "from": "term-e6fb06210f",
+      "to": "term-2cf64e447b",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Code",
+      "toName": "Chain"
+    },
+    {
+      "from": "term-2cf64e447b",
+      "to": "term-899531e0f8",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Chain",
+      "toName": "Workflow"
+    },
+    {
+      "from": "term-899531e0f8",
+      "to": "term-29a184b65c",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Workflow",
+      "toName": "Graph"
+    },
+    {
+      "from": "term-899531e0f8",
+      "to": "term-431bdfc7b7",
+      "type": "CONTRASTS_WITH",
+      "fromName": "Workflow",
+      "toName": "Agent Loop"
+    },
+    {
+      "from": "term-db9a022b75",
+      "to": "term-7c02c7e8a0",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Goal",
+      "toName": "Observation"
+    },
+    {
+      "from": "term-7c02c7e8a0",
+      "to": "term-431bdfc7b7",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Observation",
+      "toName": "Agent Loop"
+    },
+    {
+      "from": "term-6b810c90aa",
+      "to": "term-431bdfc7b7",
+      "type": "PART_OF",
+      "fromName": "ReAct",
+      "toName": "Agent Loop"
+    },
+    {
+      "from": "term-229eb41840",
+      "to": "term-431bdfc7b7",
+      "type": "PART_OF",
+      "fromName": "Planner",
+      "toName": "Agent Loop"
+    },
+    {
+      "from": "term-b1033ae408",
+      "to": "term-431bdfc7b7",
+      "type": "PART_OF",
+      "fromName": "Executor",
+      "toName": "Agent Loop"
+    },
+    {
+      "from": "term-9f00fad98b",
+      "to": "term-431bdfc7b7",
+      "type": "PART_OF",
+      "fromName": "Policy",
+      "toName": "Agent Loop"
+    },
+    {
+      "from": "term-03a182f7f6",
+      "to": "term-431bdfc7b7",
+      "type": "PART_OF",
+      "fromName": "Validator",
+      "toName": "Agent Loop"
+    },
+    {
+      "from": "term-0e8ad5a687",
+      "to": "term-431bdfc7b7",
+      "type": "PART_OF",
+      "fromName": "State Commit",
+      "toName": "Agent Loop"
+    },
+    {
+      "from": "term-2cc803743b",
+      "to": "term-431bdfc7b7",
+      "type": "PART_OF",
+      "fromName": "Stopping Condition",
+      "toName": "Agent Loop"
+    },
+    {
+      "from": "term-81e4a5523e",
+      "to": "term-431bdfc7b7",
+      "type": "PART_OF",
+      "fromName": "Budget",
+      "toName": "Agent Loop"
+    },
+    {
+      "from": "term-13da39d0e9",
+      "to": "term-431bdfc7b7",
+      "type": "FAILURE_RELATED",
+      "fromName": "Goal Drift",
+      "toName": "Agent Loop"
+    },
+    {
+      "from": "term-3bc3e39c4f",
+      "to": "term-431bdfc7b7",
+      "type": "FAILURE_RELATED",
+      "fromName": "Error Accumulation",
+      "toName": "Agent Loop"
+    },
+    {
+      "from": "term-431bdfc7b7",
+      "to": "term-1afde506f8",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Agent Loop",
+      "toName": "Agent Runtime"
+    },
+    {
+      "from": "term-1afde506f8",
+      "to": "term-287c4e4dc8",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Agent Runtime",
+      "toName": "Runtime Task"
+    },
+    {
+      "from": "term-aa4a5f8125",
+      "to": "term-66f79d8a63",
+      "type": "CONTRASTS_WITH",
+      "fromName": "State",
+      "toName": "History"
+    },
+    {
+      "from": "term-aa4a5f8125",
+      "to": "term-4b3d34e3b6",
+      "type": "CONTRASTS_WITH",
+      "fromName": "State",
+      "toName": "Runtime Context"
+    },
+    {
+      "from": "term-9bb81c113e",
+      "to": "term-8ed9cd04f2",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Source of Truth",
+      "toName": "Current Truth"
+    },
+    {
+      "from": "term-8ed9cd04f2",
+      "to": "term-aa4a5f8125",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Current Truth",
+      "toName": "State"
+    },
+    {
+      "from": "term-aa4a5f8125",
+      "to": "term-657a2d174d",
+      "type": "PREREQUISITE_OF",
+      "fromName": "State",
+      "toName": "Context Assembly"
+    },
+    {
+      "from": "term-657a2d174d",
+      "to": "term-4b3d34e3b6",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Context Assembly",
+      "toName": "Runtime Context"
+    },
+    {
+      "from": "term-7ac11ff175",
+      "to": "term-657a2d174d",
+      "type": "USES",
+      "fromName": "Memory Retrieval",
+      "toName": "Context Assembly"
+    },
+    {
+      "from": "term-ab9ccafc16",
+      "to": "term-657a2d174d",
+      "type": "USES",
+      "fromName": "Knowledge Source",
+      "toName": "Context Assembly"
+    },
+    {
+      "from": "term-66f79d8a63",
+      "to": "term-1a1fda9f0e",
+      "type": "PREREQUISITE_OF",
+      "fromName": "History",
+      "toName": "Memory Candidate"
+    },
+    {
+      "from": "term-1a1fda9f0e",
+      "to": "term-25480dcc59",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Memory Candidate",
+      "toName": "Memory Promotion"
+    },
+    {
+      "from": "term-05e4ab3f6a",
+      "to": "term-7ac11ff175",
+      "type": "PART_OF",
+      "fromName": "Freshness",
+      "toName": "Memory Retrieval"
+    },
+    {
+      "from": "term-6b6643ec3d",
+      "to": "term-7ac11ff175",
+      "type": "PART_OF",
+      "fromName": "Conflict Gate",
+      "toName": "Memory Retrieval"
+    },
+    {
+      "from": "term-95e08528b8",
+      "to": "term-4b3d34e3b6",
+      "type": "CONTRASTS_WITH",
+      "fromName": "Context Window",
+      "toName": "Runtime Context"
+    },
+    {
+      "from": "term-05535ecff7",
+      "to": "term-aa4a5f8125",
+      "type": "CONTRASTS_WITH",
+      "fromName": "Summary",
+      "toName": "State"
+    },
+    {
+      "from": "term-431bdfc7b7",
+      "to": "term-0a4ca4ce7e",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Agent Loop",
+      "toName": "Harness"
+    },
+    {
+      "from": "term-0a4ca4ce7e",
+      "to": "term-7500a47d12",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Harness",
+      "toName": "Work Environment"
+    },
+    {
+      "from": "term-4f8f232c70",
+      "to": "term-0a4ca4ce7e",
+      "type": "PART_OF",
+      "fromName": "Minimal Sufficient Context",
+      "toName": "Harness"
+    },
+    {
+      "from": "term-e7520451c9",
+      "to": "term-0a4ca4ce7e",
+      "type": "PART_OF",
+      "fromName": "Tool Surface",
+      "toName": "Harness"
+    },
+    {
+      "from": "term-a279fe916f",
+      "to": "term-0a4ca4ce7e",
+      "type": "PART_OF",
+      "fromName": "Workspace",
+      "toName": "Harness"
+    },
+    {
+      "from": "term-9ed037b849",
+      "to": "term-0a4ca4ce7e",
+      "type": "PART_OF",
+      "fromName": "Sandbox",
+      "toName": "Harness"
+    },
+    {
+      "from": "term-b45fccd35c",
+      "to": "term-0a4ca4ce7e",
+      "type": "PART_OF",
+      "fromName": "Permission Filtering",
+      "toName": "Harness"
+    },
+    {
+      "from": "term-03a182f7f6",
+      "to": "term-0a4ca4ce7e",
+      "type": "PART_OF",
+      "fromName": "Validator",
+      "toName": "Harness"
+    },
+    {
+      "from": "term-ec0188a088",
+      "to": "term-0a4ca4ce7e",
+      "type": "PART_OF",
+      "fromName": "Feedback Density",
+      "toName": "Harness"
+    },
+    {
+      "from": "term-0a4ca4ce7e",
+      "to": "term-1afde506f8",
+      "type": "CONTRASTS_WITH",
+      "fromName": "Harness",
+      "toName": "Agent Runtime"
+    },
+    {
+      "from": "term-899531e0f8",
+      "to": "term-1afde506f8",
+      "type": "CONTRASTS_WITH",
+      "fromName": "Workflow",
+      "toName": "Agent Runtime"
+    },
+    {
+      "from": "term-287c4e4dc8",
+      "to": "term-5c528ebc85",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Runtime Task",
+      "toName": "Checkpoint"
+    },
+    {
+      "from": "term-5c528ebc85",
+      "to": "term-4780e62c4f",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Checkpoint",
+      "toName": "Durable Execution"
+    },
+    {
+      "from": "term-5006ed0248",
+      "to": "term-b37f79b5e4",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Event",
+      "toName": "State Update"
+    },
+    {
+      "from": "term-b37f79b5e4",
+      "to": "term-aa4a5f8125",
+      "type": "PREREQUISITE_OF",
+      "fromName": "State Update",
+      "toName": "State"
+    },
+    {
+      "from": "term-12625ba3c1",
+      "to": "term-142f817c3e",
+      "type": "PREREQUISITE_OF",
+      "fromName": "WAITING",
+      "toName": "Scheduler"
+    },
+    {
+      "from": "term-142f817c3e",
+      "to": "term-0855694ebb",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Scheduler",
+      "toName": "Runnable"
+    },
+    {
+      "from": "term-56d3c9490b",
+      "to": "term-50d8b4a941",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Timeout",
+      "toName": "UNKNOWN"
+    },
+    {
+      "from": "term-50d8b4a941",
+      "to": "term-9db160257b",
+      "type": "PREREQUISITE_OF",
+      "fromName": "UNKNOWN",
+      "toName": "State Reconciliation"
+    },
+    {
+      "from": "term-9db160257b",
+      "to": "term-8b60e9d739",
+      "type": "PREREQUISITE_OF",
+      "fromName": "State Reconciliation",
+      "toName": "Recovery"
+    },
+    {
+      "from": "term-708269ae00",
+      "to": "term-8b60e9d739",
+      "type": "PART_OF",
+      "fromName": "Retry",
+      "toName": "Recovery"
+    },
+    {
+      "from": "term-ff3a6f3b41",
+      "to": "term-8b60e9d739",
+      "type": "PART_OF",
+      "fromName": "Rollback",
+      "toName": "Recovery"
+    },
+    {
+      "from": "term-341d953e69",
+      "to": "term-8b60e9d739",
+      "type": "PART_OF",
+      "fromName": "Replay",
+      "toName": "Recovery"
+    },
+    {
+      "from": "term-68d1dae1af",
+      "to": "term-9bc3f4bf9a",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Effect",
+      "toName": "Effect Boundary"
+    },
+    {
+      "from": "term-9bc3f4bf9a",
+      "to": "term-ecc2bbf343",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Effect Boundary",
+      "toName": "Truth Commit"
+    },
+    {
+      "from": "term-c5be5b3d86",
+      "to": "term-6d244f5836",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Capability",
+      "toName": "Permission"
+    },
+    {
+      "from": "term-6d244f5836",
+      "to": "term-9f00fad98b",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Permission",
+      "toName": "Policy"
+    },
+    {
+      "from": "term-9f00fad98b",
+      "to": "term-59494695a3",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Policy",
+      "toName": "Approval"
+    },
+    {
+      "from": "term-5f3670a630",
+      "to": "term-eed9295638",
+      "type": "CONTRASTS_WITH",
+      "fromName": "Control Plane",
+      "toName": "Data Plane"
+    },
+    {
+      "from": "term-7c02c7e8a0",
+      "to": "term-1de9d55f67",
+      "type": "CONTRASTS_WITH",
+      "fromName": "Observation",
+      "toName": "Assessment"
+    },
+    {
+      "from": "term-1de9d55f67",
+      "to": "term-8ed9cd04f2",
+      "type": "CONTRASTS_WITH",
+      "fromName": "Assessment",
+      "toName": "Current Truth"
+    },
+    {
+      "from": "term-1e5dcbb59b",
+      "to": "term-100ec4462d",
+      "type": "CONTRASTS_WITH",
+      "fromName": "Artifact",
+      "toName": "Evidence"
+    },
+    {
+      "from": "term-100ec4462d",
+      "to": "term-cb440eae28",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Evidence",
+      "toName": "Evidence-bound Approval"
+    },
+    {
+      "from": "term-cb440eae28",
+      "to": "term-59494695a3",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Evidence-bound Approval",
+      "toName": "Approval"
+    },
+    {
+      "from": "term-c6562d1504",
+      "to": "term-ecc2bbf343",
+      "type": "USES",
+      "fromName": "External Truth",
+      "toName": "Truth Commit"
+    },
+    {
+      "from": "term-90c5d1358d",
+      "to": "term-95bba9729a",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Provider",
+      "toName": "Model Gateway"
+    },
+    {
+      "from": "term-95bba9729a",
+      "to": "term-c854cb2901",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Model Gateway",
+      "toName": "Model Routing"
+    },
+    {
+      "from": "term-3c39c4507f",
+      "to": "term-c854cb2901",
+      "type": "PART_OF",
+      "fromName": "Reasoning Routing",
+      "toName": "Model Routing"
+    },
+    {
+      "from": "term-e5875dfc01",
+      "to": "term-77eb1db6cb",
+      "type": "PART_OF",
+      "fromName": "Tool Routing",
+      "toName": "Router"
+    },
+    {
+      "from": "term-f36e3d0d92",
+      "to": "term-77eb1db6cb",
+      "type": "PART_OF",
+      "fromName": "Agent Routing",
+      "toName": "Router"
+    },
+    {
+      "from": "term-4850b7907a",
+      "to": "term-75b7da1921",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Admission Control",
+      "toName": "Priority Queue"
+    },
+    {
+      "from": "term-75b7da1921",
+      "to": "term-142f817c3e",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Priority Queue",
+      "toName": "Scheduler"
+    },
+    {
+      "from": "term-df4013ca70",
+      "to": "term-142f817c3e",
+      "type": "PART_OF",
+      "fromName": "Concurrency Limit",
+      "toName": "Scheduler"
+    },
+    {
+      "from": "term-a4b811f8e4",
+      "to": "term-142f817c3e",
+      "type": "PART_OF",
+      "fromName": "Quota",
+      "toName": "Scheduler"
+    },
+    {
+      "from": "term-3b509b4fe2",
+      "to": "term-142f817c3e",
+      "type": "PART_OF",
+      "fromName": "Lease",
+      "toName": "Scheduler"
+    },
+    {
+      "from": "term-cdaa6b8937",
+      "to": "term-75b7da1921",
+      "type": "PART_OF",
+      "fromName": "Aging",
+      "toName": "Priority Queue"
+    },
+    {
+      "from": "term-95feb49f75",
+      "to": "term-822bc13e2d",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Telemetry",
+      "toName": "Eval"
+    },
+    {
+      "from": "term-822bc13e2d",
+      "to": "term-3a1d9722ef",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Eval",
+      "toName": "Decision Record"
+    },
+    {
+      "from": "term-9904fd3a83",
+      "to": "term-822bc13e2d",
+      "type": "PART_OF",
+      "fromName": "Task Eval",
+      "toName": "Eval"
+    },
+    {
+      "from": "term-2d0f395ef8",
+      "to": "term-822bc13e2d",
+      "type": "PART_OF",
+      "fromName": "Trajectory Eval",
+      "toName": "Eval"
+    },
+    {
+      "from": "term-20d232118b",
+      "to": "term-822bc13e2d",
+      "type": "PART_OF",
+      "fromName": "Outcome Eval",
+      "toName": "Eval"
+    },
+    {
+      "from": "term-9fe5c9c841",
+      "to": "term-822bc13e2d",
+      "type": "PART_OF",
+      "fromName": "Artifact Eval",
+      "toName": "Eval"
+    },
+    {
+      "from": "term-2fffb71237",
+      "to": "term-822bc13e2d",
+      "type": "PART_OF",
+      "fromName": "Effect Eval",
+      "toName": "Eval"
+    },
+    {
+      "from": "term-8078b290e0",
+      "to": "term-822bc13e2d",
+      "type": "PART_OF",
+      "fromName": "Regression Eval",
+      "toName": "Eval"
+    },
+    {
+      "from": "term-fa39de9d39",
+      "to": "term-822bc13e2d",
+      "type": "PART_OF",
+      "fromName": "Failure Slice",
+      "toName": "Eval"
+    },
+    {
+      "from": "term-1afde506f8",
+      "to": "term-4994525591",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Agent Runtime",
+      "toName": "AI Platform"
+    },
+    {
+      "from": "term-4994525591",
+      "to": "term-cc3543f7cb",
+      "type": "PREREQUISITE_OF",
+      "fromName": "AI Platform",
+      "toName": "Platformization"
+    },
+    {
+      "from": "term-3b4923f6c2",
+      "to": "term-4994525591",
+      "type": "PART_OF",
+      "fromName": "Knowledge Layer",
+      "toName": "AI Platform"
+    },
+    {
+      "from": "term-692fa1dea3",
+      "to": "term-4994525591",
+      "type": "PART_OF",
+      "fromName": "Capability Layer",
+      "toName": "AI Platform"
+    },
+    {
+      "from": "term-0064e7478c",
+      "to": "term-4994525591",
+      "type": "PART_OF",
+      "fromName": "Infrastructure Layer",
+      "toName": "AI Platform"
+    },
+    {
+      "from": "term-625870c023",
+      "to": "term-4994525591",
+      "type": "PART_OF",
+      "fromName": "Multi-tenancy",
+      "toName": "AI Platform"
+    },
+    {
+      "from": "term-56b8e6bb95",
+      "to": "term-4994525591",
+      "type": "PART_OF",
+      "fromName": "Governance",
+      "toName": "AI Platform"
+    },
+    {
+      "from": "term-822bc13e2d",
+      "to": "term-4994525591",
+      "type": "PART_OF",
+      "fromName": "Eval",
+      "toName": "AI Platform"
+    },
+    {
+      "from": "term-4a78d263f3",
+      "to": "term-1797e6ebcb",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Subagent",
+      "toName": "Delegation"
+    },
+    {
+      "from": "term-1797e6ebcb",
+      "to": "term-2f45a9f37a",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Delegation",
+      "toName": "Handoff"
+    },
+    {
+      "from": "term-76989984ee",
+      "to": "term-4a78d263f3",
+      "type": "PART_OF",
+      "fromName": "Context Isolation",
+      "toName": "Subagent"
+    },
+    {
+      "from": "term-e492d7a0bf",
+      "to": "term-4a78d263f3",
+      "type": "PART_OF",
+      "fromName": "Responsibility Isolation",
+      "toName": "Subagent"
+    },
+    {
+      "from": "term-49798f4232",
+      "to": "term-7c65f0df68",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Shared State",
+      "toName": "State Owner"
+    },
+    {
+      "from": "term-7c65f0df68",
+      "to": "term-21ca4bf54f",
+      "type": "PREREQUISITE_OF",
+      "fromName": "State Owner",
+      "toName": "Truth Ownership"
+    },
+    {
+      "from": "term-93efb46bf9",
+      "to": "term-f45350fb9e",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Parent Task",
+      "toName": "Child Task"
+    },
+    {
+      "from": "term-f45350fb9e",
+      "to": "term-de58e2b17c",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Child Task",
+      "toName": "Dependency"
+    },
+    {
+      "from": "term-71caead100",
+      "to": "term-76989984ee",
+      "type": "PART_OF",
+      "fromName": "Private Context",
+      "toName": "Context Isolation"
+    },
+    {
+      "from": "term-796b66b702",
+      "to": "term-2f45a9f37a",
+      "type": "PART_OF",
+      "fromName": "Handoff Context",
+      "toName": "Handoff"
+    },
+    {
+      "from": "term-0f4d09e43d",
+      "to": "term-3447210832",
+      "type": "PART_OF",
+      "fromName": "Supervisor",
+      "toName": "Multi-Agent"
+    },
+    {
+      "from": "term-51fdd04556",
+      "to": "term-3447210832",
+      "type": "PART_OF",
+      "fromName": "P2P",
+      "toName": "Multi-Agent"
+    },
+    {
+      "from": "term-848278c4fe",
+      "to": "term-3447210832",
+      "type": "PART_OF",
+      "fromName": "Blackboard",
+      "toName": "Multi-Agent"
+    },
+    {
+      "from": "term-6c9493fa9c",
+      "to": "term-3447210832",
+      "type": "PART_OF",
+      "fromName": "Event-driven Collaboration",
+      "toName": "Multi-Agent"
+    },
+    {
+      "from": "term-0b69070c87",
+      "to": "term-3447210832",
+      "type": "PART_OF",
+      "fromName": "Agent Registry",
+      "toName": "Multi-Agent"
+    },
+    {
+      "from": "term-efa3399472",
+      "to": "term-13b6f5492c",
+      "type": "PART_OF",
+      "fromName": "A2A",
+      "toName": "Cross-Runtime Boundary"
+    },
+    {
+      "from": "term-81f99b579f",
+      "to": "term-efa3399472",
+      "type": "PART_OF",
+      "fromName": "Agent Card",
+      "toName": "A2A"
+    },
+    {
+      "from": "term-f7da1a742f",
+      "to": "term-3447210832",
+      "type": "FAILURE_RELATED",
+      "fromName": "Coordination Tax",
+      "toName": "Multi-Agent"
+    },
+    {
+      "from": "term-be461bb883",
+      "to": "term-3447210832",
+      "type": "FAILURE_RELATED",
+      "fromName": "Agent Explosion",
+      "toName": "Multi-Agent"
+    },
+    {
+      "from": "term-89f216aaa6",
+      "to": "term-be65d27ae0",
+      "type": "PREREQUISITE_OF",
+      "fromName": "HTML Parsing",
+      "toName": "DOM"
+    },
+    {
+      "from": "term-be65d27ae0",
+      "to": "term-4bcc0754c8",
+      "type": "PREREQUISITE_OF",
+      "fromName": "DOM",
+      "toName": "Render Tree"
+    },
+    {
+      "from": "term-4bcc0754c8",
+      "to": "term-207b877e13",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Render Tree",
+      "toName": "Layout"
+    },
+    {
+      "from": "term-207b877e13",
+      "to": "term-039f7bd6bc",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Layout",
+      "toName": "Paint"
+    },
+    {
+      "from": "term-039f7bd6bc",
+      "to": "term-6288c74c29",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Paint",
+      "toName": "Composite"
+    },
+    {
+      "from": "term-0bfff74355",
+      "to": "term-4bcc0754c8",
+      "type": "PREREQUISITE_OF",
+      "fromName": "CSSOM",
+      "toName": "Render Tree"
+    },
+    {
+      "from": "term-5006ed0248",
+      "to": "term-8fdab0d793",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Event",
+      "toName": "Event Bubbling"
+    },
+    {
+      "from": "term-79fbade86a",
+      "to": "term-5006ed0248",
+      "type": "PART_OF",
+      "fromName": "Event Capturing",
+      "toName": "Event"
+    },
+    {
+      "from": "term-46de2f7389",
+      "to": "term-c9ba7ffd04",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Call Stack",
+      "toName": "Event Loop"
+    },
+    {
+      "from": "term-c9ba7ffd04",
+      "to": "term-7fbb727db4",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Event Loop",
+      "toName": "Task"
+    },
+    {
+      "from": "term-7fbb727db4",
+      "to": "term-19d2ead10c",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Task",
+      "toName": "Microtask"
+    },
+    {
+      "from": "term-19d2ead10c",
+      "to": "term-8c2fd8442f",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Microtask",
+      "toName": "Promise"
+    },
+    {
+      "from": "term-fbd34a2b6e",
+      "to": "term-c077d67a92",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Module",
+      "toName": "ESM"
+    },
+    {
+      "from": "term-c077d67a92",
+      "to": "term-e6331d57d0",
+      "type": "PREREQUISITE_OF",
+      "fromName": "ESM",
+      "toName": "Bundler"
+    },
+    {
+      "from": "term-caddfc5d9c",
+      "to": "term-e6331d57d0",
+      "type": "PART_OF",
+      "fromName": "Tree Shaking",
+      "toName": "Bundler"
+    },
+    {
+      "from": "term-779a7aaa4e",
+      "to": "term-e6331d57d0",
+      "type": "PART_OF",
+      "fromName": "Code Splitting",
+      "toName": "Bundler"
+    },
+    {
+      "from": "term-4eaf489bda",
+      "to": "term-779a7aaa4e",
+      "type": "PART_OF",
+      "fromName": "Dynamic Import",
+      "toName": "Code Splitting"
+    },
+    {
+      "from": "term-4fe486f255",
+      "to": "term-27998e08b8",
+      "type": "PREREQUISITE_OF",
+      "fromName": "CSR",
+      "toName": "Hydration"
+    },
+    {
+      "from": "term-c62aaaf1e8",
+      "to": "term-27998e08b8",
+      "type": "PREREQUISITE_OF",
+      "fromName": "SSR",
+      "toName": "Hydration"
+    },
+    {
+      "from": "term-4fe486f255",
+      "to": "term-c62aaaf1e8",
+      "type": "CONTRASTS_WITH",
+      "fromName": "CSR",
+      "toName": "SSR"
+    },
+    {
+      "from": "term-24ce6d4891",
+      "to": "term-c62aaaf1e8",
+      "type": "CONTRASTS_WITH",
+      "fromName": "SSG",
+      "toName": "SSR"
+    },
+    {
+      "from": "term-494c5d59f3",
+      "to": "term-24ce6d4891",
+      "type": "CONTRASTS_WITH",
+      "fromName": "ISR",
+      "toName": "SSG"
+    },
+    {
+      "from": "term-335c4c1e2f",
+      "to": "term-aa60968734",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Component",
+      "toName": "Props"
+    },
+    {
+      "from": "term-aa60968734",
+      "to": "term-37eca5751d",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Props",
+      "toName": "Render"
+    },
+    {
+      "from": "term-37eca5751d",
+      "to": "term-4015b57a14",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Render",
+      "toName": "Commit"
+    },
+    {
+      "from": "term-aa4a5f8125",
+      "to": "term-335c4c1e2f",
+      "type": "PART_OF",
+      "fromName": "State",
+      "toName": "Component"
+    },
+    {
+      "from": "term-6bab147e47",
+      "to": "term-335c4c1e2f",
+      "type": "PART_OF",
+      "fromName": "Hook",
+      "toName": "Component"
+    },
+    {
+      "from": "term-5c2c26eaf0",
+      "to": "term-6bab147e47",
+      "type": "PART_OF",
+      "fromName": "useEffect",
+      "toName": "Hook"
+    },
+    {
+      "from": "term-4f7525e28a",
+      "to": "term-37eca5751d",
+      "type": "PART_OF",
+      "fromName": "Reconciliation",
+      "toName": "Render"
+    },
+    {
+      "from": "term-a206522662",
+      "to": "term-4f7525e28a",
+      "type": "PART_OF",
+      "fromName": "Fiber",
+      "toName": "Reconciliation"
+    },
+    {
+      "from": "term-ab34e22e38",
+      "to": "term-d42aa017cf",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Suspense",
+      "toName": "Streaming Rendering"
+    },
+    {
+      "from": "term-441679e8a7",
+      "to": "term-5c5d623fd6",
+      "type": "CONTRASTS_WITH",
+      "fromName": "React Server Components",
+      "toName": "Client Components"
+    },
+    {
+      "from": "term-07e2a5456b",
+      "to": "term-e9b54646a4",
+      "type": "PART_OF",
+      "fromName": "Server Function",
+      "toName": "Server Action"
+    },
+    {
+      "from": "term-94a9aae584",
+      "to": "term-74c69adbd4",
+      "type": "USES",
+      "fromName": "Cache Components",
+      "toName": "Partial Prerendering"
+    },
+    {
+      "from": "term-54b64b0136",
+      "to": "term-394448a354",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Critical Rendering Path",
+      "toName": "LCP"
+    },
+    {
+      "from": "term-394448a354",
+      "to": "term-1eef3e10ea",
+      "type": "PREREQUISITE_OF",
+      "fromName": "LCP",
+      "toName": "Web Vitals"
+    },
+    {
+      "from": "term-4de99c71f4",
+      "to": "term-1eef3e10ea",
+      "type": "PART_OF",
+      "fromName": "INP",
+      "toName": "Web Vitals"
+    },
+    {
+      "from": "term-a30d80b2d9",
+      "to": "term-1eef3e10ea",
+      "type": "PART_OF",
+      "fromName": "CLS",
+      "toName": "Web Vitals"
+    },
+    {
+      "from": "term-c7a978cc52",
+      "to": "term-1eef3e10ea",
+      "type": "PART_OF",
+      "fromName": "TTFB",
+      "toName": "Web Vitals"
+    },
+    {
+      "from": "term-dcd9aa5c2b",
+      "to": "term-24284aedd4",
+      "type": "USES",
+      "fromName": "PerformanceObserver",
+      "toName": "Performance API"
+    },
+    {
+      "from": "term-937adac2c1",
+      "to": "term-1eef3e10ea",
+      "type": "USES",
+      "fromName": "RUM",
+      "toName": "Web Vitals"
+    },
+    {
+      "from": "term-b284f94827",
+      "to": "term-8e6c548253",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Origin",
+      "toName": "Same-origin Policy"
+    },
+    {
+      "from": "term-8e6c548253",
+      "to": "term-3b1b74c991",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Same-origin Policy",
+      "toName": "CORS"
+    },
+    {
+      "from": "term-59c826fc85",
+      "to": "term-32fbc6101a",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Cookie",
+      "toName": "SameSite"
+    },
+    {
+      "from": "term-5fa036a390",
+      "to": "term-8eaee405c3",
+      "type": "FAILURE_RELATED",
+      "fromName": "CSP",
+      "toName": "XSS"
+    },
+    {
+      "from": "term-51c0ae4e67",
+      "to": "term-59c826fc85",
+      "type": "FAILURE_RELATED",
+      "fromName": "CSRF",
+      "toName": "Cookie"
+    },
+    {
+      "from": "term-90de35a580",
+      "to": "term-c9ba7ffd04",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Node.js",
+      "toName": "Event Loop"
+    },
+    {
+      "from": "term-c9ba7ffd04",
+      "to": "term-cd0c04e8c1",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Event Loop",
+      "toName": "Non-blocking I/O"
+    },
+    {
+      "from": "term-9a40ef4495",
+      "to": "term-90de35a580",
+      "type": "PART_OF",
+      "fromName": "Worker Thread",
+      "toName": "Node.js"
+    },
+    {
+      "from": "term-b9936b288c",
+      "to": "term-9a40ef4495",
+      "type": "IMPLEMENTED_BY",
+      "fromName": "worker_threads",
+      "toName": "Worker Thread"
+    },
+    {
+      "from": "term-47d6ed932d",
+      "to": "term-90de35a580",
+      "type": "PART_OF",
+      "fromName": "AsyncLocalStorage",
+      "toName": "Node.js"
+    },
+    {
+      "from": "term-77b5f8e343",
+      "to": "term-27ad1672d8",
+      "type": "PREREQUISITE_OF",
+      "fromName": "HTTP",
+      "toName": "REST"
+    },
+    {
+      "from": "term-57ab81fe5d",
+      "to": "term-77b5f8e343",
+      "type": "PART_OF",
+      "fromName": "SSE",
+      "toName": "HTTP"
+    },
+    {
+      "from": "term-67c371fd20",
+      "to": "term-77b5f8e343",
+      "type": "CONTRASTS_WITH",
+      "fromName": "WebSocket",
+      "toName": "HTTP"
+    },
+    {
+      "from": "term-25e1c28c86",
+      "to": "term-e64b40f2bd",
+      "type": "IMPLEMENTED_BY",
+      "fromName": "gRPC",
+      "toName": "RPC"
+    },
+    {
+      "from": "term-669f7cd025",
+      "to": "term-db1dfd45b1",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Relational Database",
+      "toName": "SQL"
+    },
+    {
+      "from": "term-db1dfd45b1",
+      "to": "term-c3ee137d4f",
+      "type": "PREREQUISITE_OF",
+      "fromName": "SQL",
+      "toName": "Table"
+    },
+    {
+      "from": "term-e540cdd132",
+      "to": "term-2bfa8013f7",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Index",
+      "toName": "Query Plan"
+    },
+    {
+      "from": "term-3f36098fce",
+      "to": "term-e540cdd132",
+      "type": "IMPLEMENTED_BY",
+      "fromName": "B-tree",
+      "toName": "Index"
+    },
+    {
+      "from": "term-41c48b55fa",
+      "to": "term-434b0a6daa",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Transaction",
+      "toName": "ACID"
+    },
+    {
+      "from": "term-434b0a6daa",
+      "to": "term-9be9eab784",
+      "type": "PREREQUISITE_OF",
+      "fromName": "ACID",
+      "toName": "Isolation Level"
+    },
+    {
+      "from": "term-9be9eab784",
+      "to": "term-ce4705349b",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Isolation Level",
+      "toName": "MVCC"
+    },
+    {
+      "from": "term-1239539fc0",
+      "to": "term-9be9eab784",
+      "type": "PART_OF",
+      "fromName": "Read Committed",
+      "toName": "Isolation Level"
+    },
+    {
+      "from": "term-f10f5366d7",
+      "to": "term-9be9eab784",
+      "type": "PART_OF",
+      "fromName": "Repeatable Read",
+      "toName": "Isolation Level"
+    },
+    {
+      "from": "term-0e33b5f3ef",
+      "to": "term-9be9eab784",
+      "type": "PART_OF",
+      "fromName": "Serializable",
+      "toName": "Isolation Level"
+    },
+    {
+      "from": "term-e117797422",
+      "to": "term-41c48b55fa",
+      "type": "PART_OF",
+      "fromName": "Lock",
+      "toName": "Transaction"
+    },
+    {
+      "from": "term-303190fa14",
+      "to": "term-e117797422",
+      "type": "PART_OF",
+      "fromName": "Deadlock",
+      "toName": "Lock"
+    },
+    {
+      "from": "term-f7533d67a1",
+      "to": "term-e117797422",
+      "type": "PART_OF",
+      "fromName": "Optimistic Lock",
+      "toName": "Lock"
+    },
+    {
+      "from": "term-f8223ab409",
+      "to": "term-e117797422",
+      "type": "PART_OF",
+      "fromName": "Pessimistic Lock",
+      "toName": "Lock"
+    },
+    {
+      "from": "term-264878c065",
+      "to": "term-7ddb962526",
+      "type": "PREREQUISITE_OF",
+      "fromName": "WAL",
+      "toName": "Replication"
+    },
+    {
+      "from": "term-48aa63b9d1",
+      "to": "term-8217af2d32",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Partitioning",
+      "toName": "Partition Pruning"
+    },
+    {
+      "from": "term-b03592806e",
+      "to": "term-2e33266830",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Cache",
+      "toName": "TTL"
+    },
+    {
+      "from": "term-3dbabddf67",
+      "to": "term-b03592806e",
+      "type": "IMPLEMENTED_BY",
+      "fromName": "Cache-aside",
+      "toName": "Cache"
+    },
+    {
+      "from": "term-814a6ab836",
+      "to": "term-b03592806e",
+      "type": "FAILURE_RELATED",
+      "fromName": "Cache Stampede",
+      "toName": "Cache"
+    },
+    {
+      "from": "term-164cc36359",
+      "to": "term-b03592806e",
+      "type": "FAILURE_RELATED",
+      "fromName": "Hot Key",
+      "toName": "Cache"
+    },
+    {
+      "from": "term-1038345ecc",
+      "to": "term-0deb51abaa",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Queue",
+      "toName": "Message Broker"
+    },
+    {
+      "from": "term-0deb51abaa",
+      "to": "term-cb7a82c317",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Message Broker",
+      "toName": "Consumer"
+    },
+    {
+      "from": "term-cb7a82c317",
+      "to": "term-f9f7917226",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Consumer",
+      "toName": "Ack"
+    },
+    {
+      "from": "term-101456bdd9",
+      "to": "term-0deb51abaa",
+      "type": "PART_OF",
+      "fromName": "Producer",
+      "toName": "Message Broker"
+    },
+    {
+      "from": "term-00d8fb4958",
+      "to": "term-1038345ecc",
+      "type": "PART_OF",
+      "fromName": "Dead-letter Queue",
+      "toName": "Queue"
+    },
+    {
+      "from": "term-fec036100c",
+      "to": "term-4e8eb4841a",
+      "type": "PART_OF",
+      "fromName": "At-least-once",
+      "toName": "Delivery Semantics"
+    },
+    {
+      "from": "term-8c5024b379",
+      "to": "term-fec036100c",
+      "type": "USES",
+      "fromName": "Idempotency Key",
+      "toName": "At-least-once"
+    },
+    {
+      "from": "term-e60b6dc473",
+      "to": "term-41c48b55fa",
+      "type": "USES",
+      "fromName": "Outbox",
+      "toName": "Transaction"
+    },
+    {
+      "from": "term-db45e234b4",
+      "to": "term-acc646e6dc",
+      "type": "USES",
+      "fromName": "Saga",
+      "toName": "Compensation"
+    },
+    {
+      "from": "term-fcbdc4c271",
+      "to": "term-5038e18712",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Session",
+      "toName": "JWT"
+    },
+    {
+      "from": "term-77e00091e6",
+      "to": "term-2abb64379e",
+      "type": "USES",
+      "fromName": "OAuth 2.0",
+      "toName": "Authorization"
+    },
+    {
+      "from": "term-d7c47447f8",
+      "to": "term-77e00091e6",
+      "type": "USES",
+      "fromName": "OpenID Connect",
+      "toName": "OAuth 2.0"
+    },
+    {
+      "from": "term-dd1ea017bf",
+      "to": "term-2abb64379e",
+      "type": "IMPLEMENTED_BY",
+      "fromName": "RBAC",
+      "toName": "Authorization"
+    },
+    {
+      "from": "term-564289a5f3",
+      "to": "term-2abb64379e",
+      "type": "IMPLEMENTED_BY",
+      "fromName": "ABAC",
+      "toName": "Authorization"
+    },
+    {
+      "from": "term-56d3c9490b",
+      "to": "term-708269ae00",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Timeout",
+      "toName": "Retry"
+    },
+    {
+      "from": "term-708269ae00",
+      "to": "term-efe00a9b59",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Retry",
+      "toName": "Exponential Backoff"
+    },
+    {
+      "from": "term-dd70fee731",
+      "to": "term-efe00a9b59",
+      "type": "PART_OF",
+      "fromName": "Jitter",
+      "toName": "Exponential Backoff"
+    },
+    {
+      "from": "term-e76dce35ea",
+      "to": "term-844e392a5d",
+      "type": "PART_OF",
+      "fromName": "Circuit Breaker",
+      "toName": "Reliability"
+    },
+    {
+      "from": "term-f799949692",
+      "to": "term-844e392a5d",
+      "type": "PART_OF",
+      "fromName": "Bulkhead",
+      "toName": "Reliability"
+    },
+    {
+      "from": "term-dc39c6796e",
+      "to": "term-844e392a5d",
+      "type": "PART_OF",
+      "fromName": "Load Shedding",
+      "toName": "Reliability"
+    },
+    {
+      "from": "term-926131580c",
+      "to": "term-eb830bc025",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Health Check",
+      "toName": "Readiness"
+    },
+    {
+      "from": "term-e3c95cbb8a",
+      "to": "term-926131580c",
+      "type": "PART_OF",
+      "fromName": "Liveness",
+      "toName": "Health Check"
+    },
+    {
+      "from": "term-d0005c2ccd",
+      "to": "term-844e392a5d",
+      "type": "PART_OF",
+      "fromName": "Graceful Shutdown",
+      "toName": "Reliability"
+    },
+    {
+      "from": "term-4617ea1fe6",
+      "to": "term-255a762c36",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Docker Image",
+      "toName": "Container"
+    },
+    {
+      "from": "term-255a762c36",
+      "to": "term-91edd4009c",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Container",
+      "toName": "Pod"
+    },
+    {
+      "from": "term-91edd4009c",
+      "to": "term-2f24b3f6de",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Pod",
+      "toName": "Kubernetes Deployment"
+    },
+    {
+      "from": "term-4cf5bc59be",
+      "to": "term-2f24b3f6de",
+      "type": "PART_OF",
+      "fromName": "Service",
+      "toName": "Kubernetes Deployment"
+    },
+    {
+      "from": "term-0865753f87",
+      "to": "term-91edd4009c",
+      "type": "PART_OF",
+      "fromName": "Readiness Probe",
+      "toName": "Pod"
+    },
+    {
+      "from": "term-8c6adf2161",
+      "to": "term-91edd4009c",
+      "type": "PART_OF",
+      "fromName": "Liveness Probe",
+      "toName": "Pod"
+    },
+    {
+      "from": "term-d2a04d7130",
+      "to": "term-3de4f901ff",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Client",
+      "toName": "Server"
+    },
+    {
+      "from": "term-3de4f901ff",
+      "to": "term-444462f6f4",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Server",
+      "toName": "API Contract"
+    },
+    {
+      "from": "term-444462f6f4",
+      "to": "term-f09dcbc31e",
+      "type": "PREREQUISITE_OF",
+      "fromName": "API Contract",
+      "toName": "DTO"
+    },
+    {
+      "from": "term-f09dcbc31e",
+      "to": "term-733ae62459",
+      "type": "PREREQUISITE_OF",
+      "fromName": "DTO",
+      "toName": "Schema Validation"
+    },
+    {
+      "from": "term-80d5411510",
+      "to": "term-444462f6f4",
+      "type": "USES",
+      "fromName": "BFF",
+      "toName": "API Contract"
+    },
+    {
+      "from": "term-98989e06bd",
+      "to": "term-444462f6f4",
+      "type": "USES",
+      "fromName": "API Gateway",
+      "toName": "API Contract"
+    },
+    {
+      "from": "term-6384490462",
+      "to": "term-f5dc56292e",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Authentication Flow",
+      "toName": "Authorization Flow"
+    },
+    {
+      "from": "term-f5dc56292e",
+      "to": "term-847e501d04",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Authorization Flow",
+      "toName": "Tenant Context"
+    },
+    {
+      "from": "term-e6d284636f",
+      "to": "term-6ec2c77a69",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Server Data Fetching",
+      "toName": "SSR Data Flow"
+    },
+    {
+      "from": "term-6ec2c77a69",
+      "to": "term-27998e08b8",
+      "type": "PREREQUISITE_OF",
+      "fromName": "SSR Data Flow",
+      "toName": "Hydration"
+    },
+    {
+      "from": "term-57ab81fe5d",
+      "to": "term-dddba30368",
+      "type": "PREREQUISITE_OF",
+      "fromName": "SSE",
+      "toName": "Streaming UI"
+    },
+    {
+      "from": "term-67c371fd20",
+      "to": "term-dddba30368",
+      "type": "USES",
+      "fromName": "WebSocket",
+      "toName": "Streaming UI"
+    },
+    {
+      "from": "term-4e6efd269a",
+      "to": "term-b512b12bae",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Service Boundary",
+      "toName": "Transaction Boundary"
+    },
+    {
+      "from": "term-b512b12bae",
+      "to": "term-02fba0deeb",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Transaction Boundary",
+      "toName": "Failure Boundary"
+    },
+    {
+      "from": "term-ad85f6dc58",
+      "to": "term-41afd85313",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Contract-first",
+      "toName": "Schema-first"
+    },
+    {
+      "from": "term-41afd85313",
+      "to": "term-3101a69a04",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Schema-first",
+      "toName": "OpenAPI"
+    },
+    {
+      "from": "term-3101a69a04",
+      "to": "term-76e2efd6fd",
+      "type": "PREREQUISITE_OF",
+      "fromName": "OpenAPI",
+      "toName": "API Client Generation"
+    },
+    {
+      "from": "term-06183c8188",
+      "to": "term-444462f6f4",
+      "type": "USES",
+      "fromName": "Runtime Validation",
+      "toName": "API Contract"
+    },
+    {
+      "from": "term-faa1ab7901",
+      "to": "term-06183c8188",
+      "type": "CONTRASTS_WITH",
+      "fromName": "Compile-time Type",
+      "toName": "Runtime Validation"
+    },
+    {
+      "from": "term-22de9788db",
+      "to": "term-1766733e3a",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Mutation",
+      "toName": "Optimistic UI"
+    },
+    {
+      "from": "term-1766733e3a",
+      "to": "term-14daba4721",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Optimistic UI",
+      "toName": "Cache Invalidation"
+    },
+    {
+      "from": "term-5c05ac75ba",
+      "to": "term-bd45c88842",
+      "type": "PART_OF",
+      "fromName": "Read-after-write",
+      "toName": "Data Consistency"
+    },
+    {
+      "from": "term-a915bf6996",
+      "to": "term-b7c4cd968c",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Token Stream",
+      "toName": "Agent Event Stream"
+    },
+    {
+      "from": "term-b7c4cd968c",
+      "to": "term-dddba30368",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Agent Event Stream",
+      "toName": "Streaming UI"
+    },
+    {
+      "from": "term-c0d4ab1e14",
+      "to": "term-98edbf6a9b",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Agent Run",
+      "toName": "Tool Call"
+    },
+    {
+      "from": "term-98edbf6a9b",
+      "to": "term-f64f0f6a59",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Tool Call",
+      "toName": "Approval UI"
+    },
+    {
+      "from": "term-5c528ebc85",
+      "to": "term-a2b41bbaa7",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Checkpoint",
+      "toName": "Resume"
+    },
+    {
+      "from": "term-18cf53b903",
+      "to": "term-3e18b22485",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Frontend Span",
+      "toName": "Backend Span"
+    },
+    {
+      "from": "term-3e18b22485",
+      "to": "term-dbab387052",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Backend Span",
+      "toName": "Distributed Trace"
+    },
+    {
+      "from": "term-f2d7d94807",
+      "to": "term-7233fb3683",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Build Artifact",
+      "toName": "Deployment"
+    },
+    {
+      "from": "term-7233fb3683",
+      "to": "term-f0a3d08898",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Deployment",
+      "toName": "Release Health"
+    },
+    {
+      "from": "term-cb083cf0f6",
+      "to": "term-8233032b80",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Requirement Discovery",
+      "toName": "Solution Design"
+    },
+    {
+      "from": "term-8233032b80",
+      "to": "term-c861fd5482",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Solution Design",
+      "toName": "Delivery Gate"
+    },
+    {
+      "from": "term-c861fd5482",
+      "to": "term-c48d39d2dc",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Delivery Gate",
+      "toName": "Acceptance Criteria"
+    },
+    {
+      "from": "term-c48d39d2dc",
+      "to": "term-e66e29225b",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Acceptance Criteria",
+      "toName": "Operational Handoff"
+    },
+    {
+      "from": "term-e66e29225b",
+      "to": "term-359a44a149",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Operational Handoff",
+      "toName": "Productization"
+    },
+    {
+      "from": "term-9ac784020c",
+      "to": "term-33e8a07b97",
+      "type": "USES",
+      "fromName": "Customer Data Boundary",
+      "toName": "Tenant Isolation"
+    },
+    {
+      "from": "term-4dc37f61dd",
+      "to": "term-6f4965e247",
+      "type": "PART_OF",
+      "fromName": "Connector",
+      "toName": "Integration Contract"
+    },
+    {
+      "from": "term-c9ba7ffd04",
+      "to": "term-90de35a580",
+      "type": "CROSS_CHAIN",
+      "fromName": "Event Loop",
+      "toName": "Node.js"
+    },
+    {
+      "from": "term-c9ba7ffd04",
+      "to": "term-ef98362b8a",
+      "type": "CROSS_CHAIN",
+      "fromName": "Event Loop",
+      "toName": "Browser"
+    },
+    {
+      "from": "term-fe7042cb74",
+      "to": "term-77db4fe018",
+      "type": "CROSS_CHAIN",
+      "fromName": "Schema",
+      "toName": "Tool Schema"
+    },
+    {
+      "from": "term-fe7042cb74",
+      "to": "term-444462f6f4",
+      "type": "CROSS_CHAIN",
+      "fromName": "Schema",
+      "toName": "API Contract"
+    },
+    {
+      "from": "term-fe7042cb74",
+      "to": "term-a31ed664e5",
+      "type": "CROSS_CHAIN",
+      "fromName": "Schema",
+      "toName": "JSON Schema"
+    },
+    {
+      "from": "term-aa4a5f8125",
+      "to": "term-d2effa34d1",
+      "type": "CROSS_CHAIN",
+      "fromName": "State",
+      "toName": "Runtime State"
+    },
+    {
+      "from": "term-aa4a5f8125",
+      "to": "term-e0e05b06ba",
+      "type": "CROSS_CHAIN",
+      "fromName": "State",
+      "toName": "Session State"
+    },
+    {
+      "from": "term-b03592806e",
+      "to": "term-9caed18b39",
+      "type": "CROSS_CHAIN",
+      "fromName": "Cache",
+      "toName": "CDN"
+    },
+    {
+      "from": "term-d0fa554885",
+      "to": "term-dbab387052",
+      "type": "CROSS_CHAIN",
+      "fromName": "Trace",
+      "toName": "Distributed Trace"
+    },
+    {
+      "from": "term-2abb64379e",
+      "to": "term-18abafd3cf",
+      "type": "CROSS_CHAIN",
+      "fromName": "Authorization",
+      "toName": "Tool Permission"
+    },
+    {
+      "from": "term-96940bab9b",
+      "to": "term-d83f4a2595",
+      "type": "CROSS_CHAIN",
+      "fromName": "Idempotency",
+      "toName": "Tool Side Effect"
+    },
+    {
+      "from": "term-96940bab9b",
+      "to": "term-1038345ecc",
+      "type": "CROSS_CHAIN",
+      "fromName": "Idempotency",
+      "toName": "Queue"
+    },
+    {
+      "from": "term-57ab81fe5d",
+      "to": "term-b7c4cd968c",
+      "type": "CROSS_CHAIN",
+      "fromName": "SSE",
+      "toName": "Agent Event Stream"
+    },
+    {
+      "from": "term-822bc13e2d",
+      "to": "term-45c6b25aef",
+      "type": "CROSS_CHAIN",
+      "fromName": "Eval",
+      "toName": "Integration Test"
+    },
+    {
+      "from": "term-822bc13e2d",
+      "to": "term-a521fc6be1",
+      "type": "CROSS_CHAIN",
+      "fromName": "Eval",
+      "toName": "RAG Eval"
+    },
+    {
+      "from": "term-a43aa2b3cc",
+      "to": "term-903272216d",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Keyword",
+      "toName": "Lexical Retrieval"
+    },
+    {
+      "from": "term-fbe19d8b68",
+      "to": "term-eb9424eb30",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Top-k",
+      "toName": "Reranker"
+    },
+    {
+      "from": "term-eb9424eb30",
+      "to": "term-ac63f36343",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Reranker",
+      "toName": "Grounding"
+    },
+    {
+      "from": "term-0c236c82f6",
+      "to": "term-a521fc6be1",
+      "type": "PART_OF",
+      "fromName": "Retrieval Eval",
+      "toName": "RAG Eval"
+    },
+    {
+      "from": "term-d9ec3630bd",
+      "to": "term-a521fc6be1",
+      "type": "PART_OF",
+      "fromName": "Generation Eval",
+      "toName": "RAG Eval"
+    },
+    {
+      "from": "term-aa4a5f8125",
+      "to": "term-81c5d49be9",
+      "type": "CONTRASTS_WITH",
+      "fromName": "State",
+      "toName": "Memory"
+    },
+    {
+      "from": "term-66f79d8a63",
+      "to": "term-81c5d49be9",
+      "type": "CONTRASTS_WITH",
+      "fromName": "History",
+      "toName": "Memory"
+    },
+    {
+      "from": "term-25480dcc59",
+      "to": "term-81c5d49be9",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Memory Promotion",
+      "toName": "Memory"
+    },
+    {
+      "from": "term-aacd3103f3",
+      "to": "term-81c5d49be9",
+      "type": "PART_OF",
+      "fromName": "Scope",
+      "toName": "Memory"
+    },
+    {
+      "from": "term-ba1d32fcf8",
+      "to": "term-81c5d49be9",
+      "type": "PART_OF",
+      "fromName": "Lifetime",
+      "toName": "Memory"
+    },
+    {
+      "from": "term-fcbc333bd1",
+      "to": "term-81c5d49be9",
+      "type": "PART_OF",
+      "fromName": "Trust",
+      "toName": "Memory"
+    },
+    {
+      "from": "term-a033a528b6",
+      "to": "term-cd4bcb2074",
+      "type": "CROSS_CHAIN",
+      "fromName": "API",
+      "toName": "Tool Calling"
+    },
+    {
+      "from": "term-444462f6f4",
+      "to": "term-4e6efd269a",
+      "type": "PART_OF",
+      "fromName": "API Contract",
+      "toName": "Service Boundary"
+    },
+    {
+      "from": "term-41c48b55fa",
+      "to": "term-b512b12bae",
+      "type": "PART_OF",
+      "fromName": "Transaction",
+      "toName": "Transaction Boundary"
+    },
+    {
+      "from": "term-41c48b55fa",
+      "to": "term-669f7cd025",
+      "type": "PART_OF",
+      "fromName": "Transaction",
+      "toName": "Relational Database"
+    },
+    {
+      "from": "term-c2e2d66213",
+      "to": "term-1afde506f8",
+      "type": "PREREQUISITE_OF",
+      "fromName": "Process",
+      "toName": "Agent Runtime"
+    },
+    {
+      "from": "term-794c422cb5",
+      "to": "term-69a537093f",
+      "type": "PART_OF",
+      "fromName": "Dense Retrieval",
+      "toName": "RAG"
+    },
+    {
+      "from": "term-8b60e9d739",
+      "to": "term-4780e62c4f",
+      "type": "PART_OF",
+      "fromName": "Recovery",
+      "toName": "Durable Execution"
+    },
+    {
+      "from": "term-142f817c3e",
+      "to": "term-1afde506f8",
+      "type": "PART_OF",
+      "fromName": "Scheduler",
+      "toName": "Agent Runtime"
+    },
+    {
+      "from": "term-fec036100c",
+      "to": "term-96940bab9b",
+      "type": "USES",
+      "fromName": "At-least-once",
+      "toName": "Idempotency"
+    },
+    {
+      "from": "term-8c5024b379",
+      "to": "term-96940bab9b",
+      "type": "PART_OF",
+      "fromName": "Idempotency Key",
+      "toName": "Idempotency"
+    },
+    {
+      "from": "term-4780e62c4f",
+      "to": "term-96940bab9b",
+      "type": "USES",
+      "fromName": "Durable Execution",
+      "toName": "Idempotency"
+    },
+    {
+      "from": "term-e06379cdac",
+      "to": "term-d0fa554885",
+      "type": "PART_OF",
+      "fromName": "Agent Trace",
+      "toName": "Trace"
+    },
+    {
+      "from": "term-3447210832",
+      "to": "term-1afde506f8",
+      "type": "USES",
+      "fromName": "Multi-Agent",
+      "toName": "Agent Runtime"
+    },
+    {
+      "from": "term-4a78d263f3",
+      "to": "term-431bdfc7b7",
+      "type": "PART_OF",
+      "fromName": "Subagent",
+      "toName": "Agent Loop"
+    },
+    {
+      "from": "term-27998e08b8",
+      "to": "term-37eca5751d",
+      "type": "USES",
+      "fromName": "Hydration",
+      "toName": "Render"
+    },
+    {
+      "from": "term-1eef3e10ea",
+      "to": "term-24284aedd4",
+      "type": "OBSERVED_BY",
+      "fromName": "Web Vitals",
+      "toName": "Performance API"
+    },
+    {
+      "from": "term-7233fb3683",
+      "to": "term-2f24b3f6de",
+      "type": "IMPLEMENTED_BY",
+      "fromName": "Deployment",
+      "toName": "Kubernetes Deployment"
+    },
+    {
+      "from": "term-be65d27ae0",
+      "to": "term-ef98362b8a",
+      "type": "PART_OF",
+      "fromName": "DOM",
+      "toName": "Browser"
+    },
+    {
+      "from": "term-d0278de5f6",
+      "to": "term-9236e026cc",
+      "type": "PART_OF",
+      "fromName": "Attention",
+      "toName": "Transformer"
+    },
+    {
+      "from": "term-14daba4721",
+      "to": "term-b03592806e",
+      "type": "PART_OF",
+      "fromName": "Cache Invalidation",
+      "toName": "Cache"
+    },
+    {
+      "from": "term-359a44a149",
+      "to": "term-4994525591",
+      "type": "CROSS_CHAIN",
+      "fromName": "Productization",
+      "toName": "AI Platform"
+    },
+    {
+      "from": "term-e6331d57d0",
+      "to": "term-f2d7d94807",
+      "type": "PROVIDES",
+      "fromName": "Bundler",
+      "toName": "Build Artifact"
+    },
+    {
+      "from": "term-8b60e9d739",
+      "to": "term-844e392a5d",
+      "type": "PART_OF",
+      "fromName": "Recovery",
+      "toName": "Reliability"
+    },
+    {
+      "from": "term-aa69c3532f",
+      "to": "term-aff69df1d4",
+      "type": "PREREQUISITE_OF",
+      "fromName": "SFT",
+      "toName": "Instruct Model"
+    },
+    {
+      "from": "term-aff69df1d4",
+      "to": "term-4cddc093d5",
+      "type": "PART_OF",
+      "fromName": "Instruct Model",
+      "toName": "LLM"
+    },
+    {
+      "from": "term-822bc13e2d",
+      "to": "term-1afde506f8",
+      "type": "OBSERVED_BY",
+      "fromName": "Eval",
+      "toName": "Agent Runtime"
+    },
+    {
+      "from": "term-c854cb2901",
+      "to": "term-77eb1db6cb",
+      "type": "PART_OF",
+      "fromName": "Model Routing",
+      "toName": "Router"
+    },
+    {
+      "from": "term-77eb1db6cb",
+      "to": "term-1afde506f8",
+      "type": "PART_OF",
+      "fromName": "Router",
+      "toName": "Agent Runtime"
+    },
+    {
+      "from": "term-816b2d5b79",
+      "to": "term-68d1dae1af",
+      "type": "PART_OF",
+      "fromName": "Side Effect",
+      "toName": "Effect"
+    },
+    {
+      "from": "term-a54087722f",
+      "to": "term-4cddc093d5",
+      "type": "PART_OF",
+      "fromName": "Decoding",
+      "toName": "LLM"
+    },
+    {
+      "from": "term-c0d4ab1e14",
+      "to": "term-1afde506f8",
+      "type": "PART_OF",
+      "fromName": "Agent Run",
+      "toName": "Agent Runtime"
+    },
+    {
+      "from": "term-7233fb3683",
+      "to": "term-4994525591",
+      "type": "CROSS_CHAIN",
+      "fromName": "Deployment",
+      "toName": "AI Platform"
+    },
+    {
+      "from": "term-93efb46bf9",
+      "to": "term-287c4e4dc8",
+      "type": "PART_OF",
+      "fromName": "Parent Task",
+      "toName": "Runtime Task"
+    },
+    {
+      "from": "term-df4013ca70",
+      "to": "term-53e20abf94",
+      "type": "PART_OF",
+      "fromName": "Concurrency Limit",
+      "toName": "Concurrency"
+    },
+    {
+      "from": "term-e540cdd132",
+      "to": "term-669f7cd025",
+      "type": "PART_OF",
+      "fromName": "Index",
+      "toName": "Relational Database"
+    },
+    {
+      "from": "term-49798f4232",
+      "to": "term-aa4a5f8125",
+      "type": "PART_OF",
+      "fromName": "Shared State",
+      "toName": "State"
+    },
+    {
+      "from": "term-926131580c",
+      "to": "term-844e392a5d",
+      "type": "PART_OF",
+      "fromName": "Health Check",
+      "toName": "Reliability"
+    },
+    {
+      "from": "term-3b1a9f9c32",
+      "to": "term-69a537093f",
+      "type": "PART_OF",
+      "fromName": "Agentic RAG",
+      "toName": "RAG"
+    },
+    {
+      "from": "term-59c826fc85",
+      "to": "term-fcbdc4c271",
+      "type": "PART_OF",
+      "fromName": "Cookie",
+      "toName": "Session"
+    },
+    {
+      "from": "term-903272216d",
+      "to": "term-97fdaf2b1d",
+      "type": "PART_OF",
+      "fromName": "Lexical Retrieval",
+      "toName": "Sparse Retrieval"
+    },
+    {
+      "from": "term-22de9788db",
+      "to": "term-444462f6f4",
+      "type": "USES",
+      "fromName": "Mutation",
+      "toName": "API Contract"
+    },
+    {
+      "from": "term-6384490462",
+      "to": "term-1769396381",
+      "type": "USES",
+      "fromName": "Authentication Flow",
+      "toName": "Authentication"
+    },
+    {
+      "from": "term-3b1b74c991",
+      "to": "term-77b5f8e343",
+      "type": "USES",
+      "fromName": "CORS",
+      "toName": "HTTP"
+    },
+    {
+      "from": "term-5038e18712",
+      "to": "term-1769396381",
+      "type": "USES",
+      "fromName": "JWT",
+      "toName": "Authentication"
+    },
+    {
+      "from": "term-d42aa017cf",
+      "to": "term-27998e08b8",
+      "type": "USES",
+      "fromName": "Streaming Rendering",
+      "toName": "Hydration"
+    },
+    {
+      "from": "term-e9b54646a4",
+      "to": "term-22de9788db",
+      "type": "USES",
+      "fromName": "Server Action",
+      "toName": "Mutation"
+    },
+    {
+      "from": "term-74c69adbd4",
+      "to": "term-c62aaaf1e8",
+      "type": "USES",
+      "fromName": "Partial Prerendering",
+      "toName": "SSR"
+    },
+    {
+      "from": "term-bd45c88842",
+      "to": "term-41c48b55fa",
+      "type": "USES",
+      "fromName": "Data Consistency",
+      "toName": "Transaction"
+    },
+    {
+      "from": "term-d6bb86abbc",
+      "to": "term-1937c4c28f",
+      "type": "PART_OF",
+      "fromName": "Tool Contract",
+      "toName": "Tool"
+    },
+    {
+      "from": "term-af77b687c5",
+      "to": "term-4cddc093d5",
+      "type": "PART_OF",
+      "fromName": "Reasoning Model",
+      "toName": "LLM"
+    },
+    {
+      "from": "term-4dc37f61dd",
+      "to": "term-c5be5b3d86",
+      "type": "PART_OF",
+      "fromName": "Connector",
+      "toName": "Capability"
+    },
+    {
+      "from": "term-48aa63b9d1",
+      "to": "term-669f7cd025",
+      "type": "PART_OF",
+      "fromName": "Partitioning",
+      "toName": "Relational Database"
+    },
+    {
+      "from": "term-8eaee405c3",
+      "to": "term-ef98362b8a",
+      "type": "FAILURE_RELATED",
+      "fromName": "XSS",
+      "toName": "Browser"
+    },
+    {
+      "from": "term-441679e8a7",
+      "to": "term-335c4c1e2f",
+      "type": "PART_OF",
+      "fromName": "React Server Components",
+      "toName": "Component"
+    },
+    {
+      "from": "term-92d4d25078",
+      "to": "term-d0fa554885",
+      "type": "PART_OF",
+      "fromName": "Trace ID",
+      "toName": "Trace"
+    },
+    {
+      "from": "term-db45e234b4",
+      "to": "term-41c48b55fa",
+      "type": "ALTERNATIVE_TO",
+      "fromName": "Saga",
+      "toName": "Transaction"
+    },
+    {
+      "from": "term-7ddb962526",
+      "to": "term-669f7cd025",
+      "type": "PART_OF",
+      "fromName": "Replication",
+      "toName": "Relational Database"
+    },
+    {
+      "from": "term-e64b40f2bd",
+      "to": "term-a033a528b6",
+      "type": "PART_OF",
+      "fromName": "RPC",
+      "toName": "API"
+    },
+    {
+      "from": "term-5f3670a630",
+      "to": "term-1afde506f8",
+      "type": "PART_OF",
+      "fromName": "Control Plane",
+      "toName": "Agent Runtime"
+    },
+    {
+      "from": "term-9ac784020c",
+      "to": "term-847e501d04",
+      "type": "USES",
+      "fromName": "Customer Data Boundary",
+      "toName": "Tenant Context"
+    },
+    {
+      "from": "term-24284aedd4",
+      "to": "term-ef98362b8a",
+      "type": "PART_OF",
+      "fromName": "Performance API",
+      "toName": "Browser"
+    },
+    {
+      "from": "term-1afde506f8",
+      "to": "term-c3ecbf70b7",
+      "type": "USES",
+      "fromName": "Agent Runtime",
+      "toName": "MCP"
+    },
+    {
+      "from": "term-431bdfc7b7",
+      "to": "term-4cddc093d5",
+      "type": "USES",
+      "fromName": "Agent Loop",
+      "toName": "LLM"
+    },
+    {
+      "from": "term-539895d936",
+      "to": "term-ef98362b8a",
+      "type": "USES",
+      "fromName": "Browser Agent",
+      "toName": "Browser"
+    },
+    {
+      "from": "term-1afde506f8",
+      "to": "term-e06379cdac",
+      "type": "OBSERVED_BY",
+      "fromName": "Agent Runtime",
+      "toName": "Agent Trace"
+    },
+    {
+      "from": "term-444462f6f4",
+      "to": "term-3101a69a04",
+      "type": "IMPLEMENTED_BY",
+      "fromName": "API Contract",
+      "toName": "OpenAPI"
+    },
+    {
+      "from": "term-539895d936",
+      "to": "term-cd4bcb2074",
+      "type": "USES",
+      "fromName": "Browser Agent",
+      "toName": "Tool Calling"
+    },
+    {
+      "from": "term-3de4f901ff",
+      "to": "term-90de35a580",
+      "type": "IMPLEMENTED_BY",
+      "fromName": "Server",
+      "toName": "Node.js"
+    },
+    {
+      "from": "term-90de35a580",
+      "to": "term-255a762c36",
+      "type": "CROSS_CHAIN",
+      "fromName": "Node.js",
+      "toName": "Container"
+    },
+    {
+      "from": "term-77b5f8e343",
+      "to": "term-542ec8143e",
+      "type": "USES",
+      "fromName": "HTTP",
+      "toName": "Trace Context"
+    },
+    {
+      "from": "term-542ec8143e",
+      "to": "term-dbab387052",
+      "type": "PART_OF",
+      "fromName": "Trace Context",
+      "toName": "Distributed Trace"
+    },
+    {
+      "from": "term-69a537093f",
+      "to": "term-a521fc6be1",
+      "type": "OBSERVED_BY",
+      "fromName": "RAG",
+      "toName": "RAG Eval"
+    }
+  ],
+  "entryPaths": {
+    "agent": [
+      "Transformer",
+      "LLM",
+      "Prompt",
+      "Structured Output",
+      "Tool Calling",
+      "Agent Loop",
+      "Harness",
+      "Agent Runtime",
+      "Runtime Task",
+      "Durable Execution",
+      "Eval",
+      "AI Platform"
+    ],
+    "frontend": [
+      "Browser",
+      "DOM",
+      "Render Tree",
+      "Layout",
+      "Paint",
+      "Event Loop",
+      "Promise",
+      "Component",
+      "Render",
+      "Commit",
+      "Web Vitals"
+    ],
+    "backend": [
+      "Server",
+      "HTTP",
+      "REST",
+      "Node.js",
+      "Event Loop",
+      "Relational Database",
+      "Transaction",
+      "Isolation Level",
+      "Queue",
+      "Reliability",
+      "OpenTelemetry",
+      "Container",
+      "Kubernetes Deployment"
+    ],
+    "fullstack": [
+      "Client",
+      "Server",
+      "API Contract",
+      "Schema Validation",
+      "BFF",
+      "Authentication Flow",
+      "SSR Data Flow",
+      "Streaming UI",
+      "Service Boundary",
+      "Deployment",
+      "Distributed Trace"
+    ]
+  }
+}

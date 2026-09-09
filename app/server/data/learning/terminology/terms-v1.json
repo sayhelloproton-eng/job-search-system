@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "learning-terms.public.v1",
+  "generatedAt": "2026-09-11",
+  "sourceType": "PUBLIC_GENERIC_FIXTURE",
+  "items": [
+    {"id":"term.transformer","canonicalName":"Transformer","aliases":[],"chains":["agent","shared"],"strongestSourceBand":"P0","termClass":"STABLE_CONCEPT"},
+    {"id":"term.agent-runtime","canonicalName":"Agent Runtime","aliases":["Agent Runtime Loop"],"chains":["agent","fullstack"],"strongestSourceBand":"P0","termClass":"EVOLVING_STANDARD"},
+    {"id":"term.context-engineering","canonicalName":"Context Engineering","aliases":["Context"],"chains":["agent","shared"],"strongestSourceBand":"P0","termClass":"EVOLVING_STANDARD"},
+    {"id":"term.tool-calling","canonicalName":"Tool Calling","aliases":["Function Calling"],"chains":["agent","backend"],"strongestSourceBand":"P0","termClass":"EVOLVING_STANDARD"},
+    {"id":"term.mcp","canonicalName":"MCP","aliases":["Model Context Protocol"],"chains":["agent","backend"],"strongestSourceBand":"P0","termClass":"EVOLVING_STANDARD"},
+    {"id":"term.workflow","canonicalName":"Workflow","aliases":["Orchestration"],"chains":["agent","backend"],"strongestSourceBand":"P0","termClass":"STABLE_CONCEPT"},
+    {"id":"term.rag","canonicalName":"RAG","aliases":["Retrieval-Augmented Generation"],"chains":["agent","backend"],"strongestSourceBand":"P0","termClass":"EVOLVING_STANDARD"},
+    {"id":"term.eval","canonicalName":"Eval","aliases":["Evaluation"],"chains":["agent","shared"],"strongestSourceBand":"P0","termClass":"EVOLVING_STANDARD"},
+    {"id":"term.observability","canonicalName":"Observability","aliases":["Telemetry"],"chains":["agent","backend","fullstack"],"strongestSourceBand":"P0","termClass":"STABLE_CONCEPT"},
+    {"id":"term.typescript","canonicalName":"TypeScript","aliases":["TS"],"chains":["frontend","backend","fullstack","shared"],"strongestSourceBand":"P0","termClass":"FRAMEWORK_SPECIFIC"},
+    {"id":"term.node-runtime","canonicalName":"Node Runtime","aliases":["Node.js Runtime"],"chains":["backend","fullstack"],"strongestSourceBand":"P0","termClass":"FRAMEWORK_SPECIFIC"},
+    {"id":"term.http-api","canonicalName":"HTTP / API","aliases":["HTTP API"],"chains":["backend","fullstack","shared"],"strongestSourceBand":"P0","termClass":"STABLE_CONCEPT"},
+    {"id":"term.reliability","canonicalName":"Reliability","aliases":["Resilience"],"chains":["backend","fullstack","agent"],"strongestSourceBand":"P0","termClass":"STABLE_CONCEPT"},
+    {"id":"term.browser","canonicalName":"Browser","aliases":["Browser Runtime"],"chains":["frontend","shared"],"strongestSourceBand":"P0","termClass":"STABLE_CONCEPT"},
+    {"id":"term.server","canonicalName":"Server","aliases":["Application Server"],"chains":["backend","shared"],"strongestSourceBand":"P0","termClass":"STABLE_CONCEPT"},
+    {"id":"term.client","canonicalName":"Client","aliases":["Web Client"],"chains":["fullstack","shared"],"strongestSourceBand":"P0","termClass":"STABLE_CONCEPT"},
+    {"id":"term.python","canonicalName":"Python","aliases":[],"chains":["backend","fullstack"],"strongestSourceBand":"P1","termClass":"STABLE_CONCEPT"},
+    {"id":"term.fastapi","canonicalName":"FastAPI","aliases":[],"chains":["backend","fullstack"],"strongestSourceBand":"P1","termClass":"FRAMEWORK_SPECIFIC"},
+    {"id":"term.system-design","canonicalName":"System Design","aliases":["Architecture Design"],"chains":["agent","backend","fullstack","shared"],"strongestSourceBand":"P0","termClass":"STABLE_CONCEPT"},
+    {"id":"term.fde","canonicalName":"FDE","aliases":["Forward Deployed Engineer"],"chains":["backend","fullstack"],"strongestSourceBand":"P1","termClass":"MARKET_TERM"}
+  ]
+}

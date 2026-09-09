@@ -1,0 +1,286 @@
+{
+  "schemaVersion": "term-card-sources.v1",
+  "generatedAt": "2026-09-09",
+  "sources": [
+    {
+      "id": "src.internal.ai-modern-evolution",
+      "grade": "S2_MAINTAINER",
+      "kind": "INTERNAL_CURATED",
+      "title": "AI Modern Evolution",
+      "ref": "docs/learning/ai-modern-evolution",
+      "freshness": "CURATED_INTERNAL"
+    },
+    {
+      "id": "src.openai.agents",
+      "grade": "S1_OFFICIAL",
+      "kind": "OFFICIAL_DOC",
+      "title": "OpenAI Agents SDK",
+      "ref": "https://openai.github.io/openai-agents-python/",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.openai.tools",
+      "grade": "S1_OFFICIAL",
+      "kind": "OFFICIAL_DOC",
+      "title": "OpenAI Agents SDK - Tools",
+      "ref": "https://openai.github.io/openai-agents-python/tools/",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.openai.handoffs",
+      "grade": "S1_OFFICIAL",
+      "kind": "OFFICIAL_DOC",
+      "title": "OpenAI Agents SDK - Handoffs",
+      "ref": "https://openai.github.io/openai-agents-python/handoffs/",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.openai.tracing",
+      "grade": "S1_OFFICIAL",
+      "kind": "OFFICIAL_DOC",
+      "title": "OpenAI Agents SDK - Tracing",
+      "ref": "https://openai.github.io/openai-agents-python/tracing/",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.mcp.architecture",
+      "grade": "S0_STANDARD",
+      "kind": "OFFICIAL_SPEC",
+      "title": "Model Context Protocol Architecture",
+      "ref": "https://modelcontextprotocol.io/docs/learn/architecture",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.mdn.http",
+      "grade": "S1_OFFICIAL",
+      "kind": "OFFICIAL_DOC",
+      "title": "MDN - Overview of HTTP",
+      "ref": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.mdn.web",
+      "grade": "S1_OFFICIAL",
+      "kind": "OFFICIAL_DOC",
+      "title": "MDN Web Docs",
+      "ref": "https://developer.mozilla.org/",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.react.render",
+      "grade": "S1_OFFICIAL",
+      "kind": "OFFICIAL_DOC",
+      "title": "React - Render and Commit",
+      "ref": "https://react.dev/learn/render-and-commit",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.typescript.handbook",
+      "grade": "S1_OFFICIAL",
+      "kind": "OFFICIAL_DOC",
+      "title": "TypeScript Handbook",
+      "ref": "https://www.typescriptlang.org/docs/handbook/",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.node.docs",
+      "grade": "S1_OFFICIAL",
+      "kind": "OFFICIAL_DOC",
+      "title": "Node.js Documentation",
+      "ref": "https://nodejs.org/en/learn/",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.postgres.mvcc",
+      "grade": "S1_OFFICIAL",
+      "kind": "OFFICIAL_DOC",
+      "title": "PostgreSQL - Concurrency Control",
+      "ref": "https://www.postgresql.org/docs/current/mvcc.html",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.otel.docs",
+      "grade": "S0_STANDARD",
+      "kind": "OFFICIAL_SPEC",
+      "title": "OpenTelemetry Documentation",
+      "ref": "https://opentelemetry.io/docs/",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.rfc.oauth2",
+      "grade": "S0_STANDARD",
+      "kind": "STANDARD",
+      "title": "RFC 6749 - OAuth 2.0",
+      "ref": "https://www.rfc-editor.org/rfc/rfc6749",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.k8s.docs",
+      "grade": "S1_OFFICIAL",
+      "kind": "OFFICIAL_DOC",
+      "title": "Kubernetes Documentation",
+      "ref": "https://kubernetes.io/docs/",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.internal.interview-corpus",
+      "grade": "S3_ENGINEERING",
+      "kind": "INTERNAL_CURATED",
+      "title": "Interview Knowledge Corpus",
+      "ref": "docs/面试",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.docker.docs",
+      "grade": "S1_OFFICIAL",
+      "kind": "OFFICIAL_DOC",
+      "title": "Docker Docs - Containers and Images",
+      "ref": "https://docs.docker.com/get-started/docker-concepts/the-basics/",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.openapi.spec",
+      "grade": "S0_STANDARD",
+      "kind": "OFFICIAL_SPEC",
+      "title": "OpenAPI Specification v3.2.0",
+      "ref": "https://spec.openapis.org/oas/latest.html",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.react.rsc",
+      "grade": "S1_OFFICIAL",
+      "kind": "OFFICIAL_DOC",
+      "title": "React - Server Components",
+      "ref": "https://react.dev/reference/rsc/server-components",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.owasp.jwt",
+      "grade": "S1_OFFICIAL",
+      "kind": "OFFICIAL_DOC",
+      "title": "OWASP - JSON Web Token Cheat Sheet",
+      "ref": "https://cheatsheetseries.owasp.org/cheatsheets/JSON_Web_Token_Cheat_Sheet.html",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.next.docs",
+      "grade": "S1_OFFICIAL",
+      "kind": "OFFICIAL_DOC",
+      "title": "Next.js Documentation - App Router / Cache Components",
+      "ref": "https://nextjs.org/docs/app",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.react.hydration",
+      "grade": "S1_OFFICIAL",
+      "kind": "OFFICIAL_DOC",
+      "title": "React - hydrateRoot",
+      "ref": "https://react.dev/reference/react-dom/client/hydrateRoot",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.react.server",
+      "grade": "S1_OFFICIAL",
+      "kind": "OFFICIAL_DOC",
+      "title": "React - Server React DOM APIs",
+      "ref": "https://react.dev/reference/react-dom/server",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.react.hooks",
+      "grade": "S1_OFFICIAL",
+      "kind": "OFFICIAL_DOC",
+      "title": "React - Built-in Hooks",
+      "ref": "https://react.dev/reference/react/hooks",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.oidc.core",
+      "grade": "S0_STANDARD",
+      "kind": "OFFICIAL_SPEC",
+      "title": "OpenID Connect Core 1.0",
+      "ref": "https://openid.net/specs/openid-connect-core-1_0.html",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.owasp.csrf",
+      "grade": "S1_OFFICIAL",
+      "kind": "OFFICIAL_DOC",
+      "title": "OWASP - Cross-Site Request Forgery Prevention Cheat Sheet",
+      "ref": "https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.webvitals.lcp",
+      "grade": "S1_OFFICIAL",
+      "kind": "OFFICIAL_DOC",
+      "title": "web.dev - Largest Contentful Paint",
+      "ref": "https://web.dev/articles/lcp",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.postgres.partitioning",
+      "grade": "S1_OFFICIAL",
+      "kind": "OFFICIAL_DOC",
+      "title": "PostgreSQL 18 - Table Partitioning",
+      "ref": "https://www.postgresql.org/docs/current/ddl-partitioning.html",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.postgres.replication",
+      "grade": "S1_OFFICIAL",
+      "kind": "OFFICIAL_DOC",
+      "title": "PostgreSQL 18 - Logical Replication",
+      "ref": "https://www.postgresql.org/docs/current/logical-replication.html",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.mdn.esm",
+      "grade": "S1_OFFICIAL",
+      "kind": "OFFICIAL_DOC",
+      "title": "MDN - JavaScript Modules",
+      "ref": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.react.optimistic",
+      "grade": "S1_OFFICIAL",
+      "kind": "OFFICIAL_DOC",
+      "title": "React - useOptimistic",
+      "ref": "https://react.dev/reference/react/useOptimistic",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.owasp.xss",
+      "grade": "S1_OFFICIAL",
+      "kind": "OFFICIAL_DOC",
+      "title": "OWASP - Cross Site Scripting Prevention Cheat Sheet",
+      "ref": "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html",
+      "freshness": "2026-09-08"
+    },
+    {
+      "id": "src.langgraph.overview",
+      "grade": "S1_OFFICIAL",
+      "kind": "OFFICIAL_DOC",
+      "title": "LangGraph Overview",
+      "ref": "https://docs.langchain.com/oss/python/langgraph/overview",
+      "freshness": "2026-09-09"
+    },
+    {
+      "id": "src.openai.sft",
+      "grade": "S1_OFFICIAL",
+      "kind": "OFFICIAL_DOC",
+      "title": "OpenAI Model Optimization / Supervised Fine-tuning",
+      "ref": "https://developers.openai.com/api/docs/guides/model-optimization",
+      "freshness": "2026-09-09"
+    },
+    {
+      "id": "src.microsoft.agentic-retrieval",
+      "grade": "S1_OFFICIAL",
+      "kind": "OFFICIAL_DOC",
+      "title": "Azure AI Search Agentic Retrieval",
+      "ref": "https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-overview",
+      "freshness": "2026-09-09"
+    }
+  ]
+}

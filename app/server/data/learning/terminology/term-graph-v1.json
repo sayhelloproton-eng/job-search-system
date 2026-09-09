@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "learning-term-graph.public.v1",
+  "hubNodeCount": 10,
+  "edgeCount": 20,
+  "edges": [
+    {"from":"term.transformer","to":"term.agent-runtime","type":"PREREQUISITE_OF"},
+    {"from":"term.agent-runtime","to":"term.context-engineering","type":"USES"},
+    {"from":"term.agent-runtime","to":"term.tool-calling","type":"USES"},
+    {"from":"term.agent-runtime","to":"term.workflow","type":"USES"},
+    {"from":"term.mcp","to":"term.tool-calling","type":"PROVIDES"},
+    {"from":"term.rag","to":"term.context-engineering","type":"PROVIDES"},
+    {"from":"term.eval","to":"term.observability","type":"OBSERVED_BY"},
+    {"from":"term.server","to":"term.node-runtime","type":"IMPLEMENTED_BY"},
+    {"from":"term.http-api","to":"term.server","type":"USES"},
+    {"from":"term.reliability","to":"term.observability","type":"OBSERVED_BY"},
+    {"from":"term.client","to":"term.browser","type":"USES"},
+    {"from":"term.client","to":"term.typescript","type":"USES"},
+    {"from":"term.server","to":"term.typescript","type":"USES"},
+    {"from":"term.fastapi","to":"term.python","type":"USES"},
+    {"from":"term.fastapi","to":"term.http-api","type":"USES"},
+    {"from":"term.system-design","to":"term.reliability","type":"USES"},
+    {"from":"term.fde","to":"term.system-design","type":"USES"},
+    {"from":"term.workflow","to":"term.eval","type":"OBSERVED_BY"},
+    {"from":"term.rag","to":"term.eval","type":"OBSERVED_BY"},
+    {"from":"term.tool-calling","to":"term.eval","type":"OBSERVED_BY"}
+  ]
+}

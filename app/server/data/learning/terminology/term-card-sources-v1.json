@@ -1,0 +1,6 @@
+{
+  "schemaVersion": "learning-term-card-sources.public.v1",
+  "sources": [
+    {"id":"source.public-learning-fixture","title":"Public generic learning fixture","sourceKind":"PUBLIC_FIXTURE","note":"Synthetic generic material for open-source runtime demonstration; not candidate evidence."}
+  ]
+}

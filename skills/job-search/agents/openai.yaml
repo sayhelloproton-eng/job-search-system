@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 求职全流程"
+  short_description: "画像、简历、找岗、JD评估、定向简历、审批投递与面试复盘"
+  default_prompt: "Use $job-search as the end-to-end job-search assistant: reuse the career fact library; for BOSS, reuse the persisted boss-agent-cli session (status only when needed; login only if stale), search/detail through the public CLI, keep security_id transient, and never jump to external Playwright because a CLI call stalls; evaluate job fit and tailor/review the resume; reserve the dedicated no-debugger BOSS Chrome extension for later approval-gated application/write actions."

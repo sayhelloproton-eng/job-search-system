@@ -1,0 +1,729 @@
+{
+  "schemaVersion": "term-card-hub-wave.v1",
+  "generatedAt": "2026-09-08",
+  "wave": "T7_WAVE_4",
+  "selectionPolicy": "MISSING_HUB_DEGREE_DESC_THEN_CROSS_CHAIN",
+  "targetTerms": 80,
+  "items": [
+    {
+      "termId": "term-6f4965e247",
+      "canonicalName": "Integration Contract",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 1,
+      "rank": 1
+    },
+    {
+      "termId": "term-494c5d59f3",
+      "canonicalName": "ISR",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 1,
+      "rank": 2
+    },
+    {
+      "termId": "term-dd70fee731",
+      "canonicalName": "Jitter",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 3
+    },
+    {
+      "termId": "term-a43aa2b3cc",
+      "canonicalName": "Keyword",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 4
+    },
+    {
+      "termId": "term-3b4923f6c2",
+      "canonicalName": "Knowledge Layer",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 5
+    },
+    {
+      "termId": "term-ab9ccafc16",
+      "canonicalName": "Knowledge Source",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 6
+    },
+    {
+      "termId": "term-1f7dba4446",
+      "canonicalName": "KV Cache",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 7
+    },
+    {
+      "termId": "term-ba1d32fcf8",
+      "canonicalName": "Lifetime",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 8
+    },
+    {
+      "termId": "term-e3c95cbb8a",
+      "canonicalName": "Liveness",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 9
+    },
+    {
+      "termId": "term-8c6adf2161",
+      "canonicalName": "Liveness Probe",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 10
+    },
+    {
+      "termId": "term-dc39c6796e",
+      "canonicalName": "Load Shedding",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 11
+    },
+    {
+      "termId": "term-2b9ccb8e7e",
+      "canonicalName": "MCP Host",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 12
+    },
+    {
+      "termId": "term-0a3b4e7244",
+      "canonicalName": "MCP Prompt",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 13
+    },
+    {
+      "termId": "term-f57ebcd46c",
+      "canonicalName": "MCP Resource",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 14
+    },
+    {
+      "termId": "term-fbaad0e942",
+      "canonicalName": "MCP Tool",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 15
+    },
+    {
+      "termId": "term-4f8f232c70",
+      "canonicalName": "Minimal Sufficient Context",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 16
+    },
+    {
+      "termId": "term-fbd34a2b6e",
+      "canonicalName": "Module",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 1,
+      "rank": 17
+    },
+    {
+      "termId": "term-b7ddb42415",
+      "canonicalName": "Multi-Head Attention",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 18
+    },
+    {
+      "termId": "term-625870c023",
+      "canonicalName": "Multi-tenancy",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 19
+    },
+    {
+      "termId": "term-cd0c04e8c1",
+      "canonicalName": "Non-blocking I/O",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 20
+    },
+    {
+      "termId": "term-b284f94827",
+      "canonicalName": "Origin",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 1,
+      "rank": 21
+    },
+    {
+      "termId": "term-e60b6dc473",
+      "canonicalName": "Outbox",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 22
+    },
+    {
+      "termId": "term-51fdd04556",
+      "canonicalName": "P2P",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 23
+    },
+    {
+      "termId": "term-8217af2d32",
+      "canonicalName": "Partition Pruning",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 24
+    },
+    {
+      "termId": "term-dcd9aa5c2b",
+      "canonicalName": "PerformanceObserver",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 1,
+      "rank": 25
+    },
+    {
+      "termId": "term-b45fccd35c",
+      "canonicalName": "Permission Filtering",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 26
+    },
+    {
+      "termId": "term-229eb41840",
+      "canonicalName": "Planner",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 27
+    },
+    {
+      "termId": "term-cc3543f7cb",
+      "canonicalName": "Platformization",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 28
+    },
+    {
+      "termId": "term-2b0632f274",
+      "canonicalName": "Pre-training",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 29
+    },
+    {
+      "termId": "term-2ee8b5c783",
+      "canonicalName": "Prefill",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 30
+    },
+    {
+      "termId": "term-71caead100",
+      "canonicalName": "Private Context",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 31
+    },
+    {
+      "termId": "term-101456bdd9",
+      "canonicalName": "Producer",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 32
+    },
+    {
+      "termId": "term-9c7e05e586",
+      "canonicalName": "Prompt",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 33
+    },
+    {
+      "termId": "term-6e9b4af64b",
+      "canonicalName": "Protocol",
+      "chains": [
+        "shared"
+      ],
+      "degree": 1,
+      "rank": 34
+    },
+    {
+      "termId": "term-2b20ac5608",
+      "canonicalName": "Provenance",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 35
+    },
+    {
+      "termId": "term-90c5d1358d",
+      "canonicalName": "Provider",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 36
+    },
+    {
+      "termId": "term-7cd9148ec5",
+      "canonicalName": "Query",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 37
+    },
+    {
+      "termId": "term-2bfa8013f7",
+      "canonicalName": "Query Plan",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 38
+    },
+    {
+      "termId": "term-a4b811f8e4",
+      "canonicalName": "Quota",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 39
+    },
+    {
+      "termId": "term-6b810c90aa",
+      "canonicalName": "ReAct",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 40
+    },
+    {
+      "termId": "term-1239539fc0",
+      "canonicalName": "Read Committed",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 41
+    },
+    {
+      "termId": "term-eb830bc025",
+      "canonicalName": "Readiness",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 42
+    },
+    {
+      "termId": "term-0865753f87",
+      "canonicalName": "Readiness Probe",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 43
+    },
+    {
+      "termId": "term-e023df3f4b",
+      "canonicalName": "Reasoning Budget",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 44
+    },
+    {
+      "termId": "term-8078b290e0",
+      "canonicalName": "Regression Eval",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 45
+    },
+    {
+      "termId": "term-f0a3d08898",
+      "canonicalName": "Release Health",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 1,
+      "rank": 46
+    },
+    {
+      "termId": "term-f10f5366d7",
+      "canonicalName": "Repeatable Read",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 47
+    },
+    {
+      "termId": "term-341d953e69",
+      "canonicalName": "Replay",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 48
+    },
+    {
+      "termId": "term-0ec6d15054",
+      "canonicalName": "Response",
+      "chains": [
+        "shared"
+      ],
+      "degree": 1,
+      "rank": 49
+    },
+    {
+      "termId": "term-e492d7a0bf",
+      "canonicalName": "Responsibility Isolation",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 50
+    },
+    {
+      "termId": "term-0c236c82f6",
+      "canonicalName": "Retrieval Eval",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 51
+    },
+    {
+      "termId": "term-ba43467dd8",
+      "canonicalName": "Retriever",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 52
+    },
+    {
+      "termId": "term-e3bf51473b",
+      "canonicalName": "RLHF",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 53
+    },
+    {
+      "termId": "term-0397692092",
+      "canonicalName": "RoPE",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 54
+    },
+    {
+      "termId": "term-0855694ebb",
+      "canonicalName": "Runnable",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 55
+    },
+    {
+      "termId": "term-d2effa34d1",
+      "canonicalName": "Runtime State",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 56
+    },
+    {
+      "termId": "term-32fbc6101a",
+      "canonicalName": "SameSite",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 1,
+      "rank": 57
+    },
+    {
+      "termId": "term-9ed037b849",
+      "canonicalName": "Sandbox",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 58
+    },
+    {
+      "termId": "term-aacd3103f3",
+      "canonicalName": "Scope",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 59
+    },
+    {
+      "termId": "term-6f69eb7dc2",
+      "canonicalName": "Selection",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 60
+    },
+    {
+      "termId": "term-c7b24069a3",
+      "canonicalName": "Self-Attention",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 61
+    },
+    {
+      "termId": "term-0e33b5f3ef",
+      "canonicalName": "Serializable",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 62
+    },
+    {
+      "termId": "term-e6d284636f",
+      "canonicalName": "Server Data Fetching",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 1,
+      "rank": 63
+    },
+    {
+      "termId": "term-4cf5bc59be",
+      "canonicalName": "Service",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 64
+    },
+    {
+      "termId": "term-e0e05b06ba",
+      "canonicalName": "Session State",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 1,
+      "rank": 65
+    },
+    {
+      "termId": "term-34b33e00b1",
+      "canonicalName": "Skill",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 66
+    },
+    {
+      "termId": "term-01054424b1",
+      "canonicalName": "Span ID",
+      "chains": [
+        "shared"
+      ],
+      "degree": 1,
+      "rank": 67
+    },
+    {
+      "termId": "term-0e8ad5a687",
+      "canonicalName": "State Commit",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 68
+    },
+    {
+      "termId": "term-25716a9a64",
+      "canonicalName": "stdio",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 69
+    },
+    {
+      "termId": "term-2cc803743b",
+      "canonicalName": "Stopping Condition",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 70
+    },
+    {
+      "termId": "term-e090273030",
+      "canonicalName": "Streamable HTTP",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 71
+    },
+    {
+      "termId": "term-82de00eba8",
+      "canonicalName": "Structured Output",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 72
+    },
+    {
+      "termId": "term-05535ecff7",
+      "canonicalName": "Summary",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 73
+    },
+    {
+      "termId": "term-0f4d09e43d",
+      "canonicalName": "Supervisor",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 74
+    },
+    {
+      "termId": "term-ab34e22e38",
+      "canonicalName": "Suspense",
+      "chains": [
+        "frontend"
+      ],
+      "degree": 1,
+      "rank": 75
+    },
+    {
+      "termId": "term-c3ee137d4f",
+      "canonicalName": "Table",
+      "chains": [
+        "backend"
+      ],
+      "degree": 1,
+      "rank": 76
+    },
+    {
+      "termId": "term-9904fd3a83",
+      "canonicalName": "Task Eval",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 77
+    },
+    {
+      "termId": "term-95feb49f75",
+      "canonicalName": "Telemetry",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 78
+    },
+    {
+      "termId": "term-19d339e008",
+      "canonicalName": "Test-time Compute",
+      "chains": [
+        "agent"
+      ],
+      "degree": 1,
+      "rank": 79
+    },
+    {
+      "termId": "term-a915bf6996",
+      "canonicalName": "Token Stream",
+      "chains": [
+        "fullstack"
+      ],
+      "degree": 1,
+      "rank": 80
+    }
+  ]
+}
