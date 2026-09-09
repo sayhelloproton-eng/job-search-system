@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "learning-term-cards.public.v1",
+  "coverageScope": "PUBLIC_GENERIC_FIXTURE",
+  "canonicalTargetTerms": 20,
+  "hubTargetTerms": 10,
+  "materializedHubTerms": 10,
+  "interviewCoreTarget": 16,
+  "interviewCoreMaterialized": 16,
+  "items": [
+    {"termId":"term.transformer","plainDefinition":"将输入序列映射为上下文相关表示的神经网络架构。","purpose":"理解现代语言模型的基础计算结构。","sourceRefs":["source.public-learning-fixture"]},
+    {"termId":"term.agent-runtime","plainDefinition":"承载 Agent 状态、工具调用、恢复和执行边界的运行时。","purpose":"把模型判断变成受控、可观察的执行过程。","sourceRefs":["source.public-learning-fixture"]},
+    {"termId":"term.context-engineering","plainDefinition":"为一次模型调用选择、组织和约束有效上下文。","purpose":"让模型获得足够且可追溯的信息，同时控制噪声和成本。","sourceRefs":["source.public-learning-fixture"]},
+    {"termId":"term.tool-calling","plainDefinition":"模型表达工具调用意图，由 Runtime 校验并执行结构化调用。","purpose":"让模型安全连接外部能力。","sourceRefs":["source.public-learning-fixture"]},
+    {"termId":"term.mcp","plainDefinition":"用于描述和连接模型上下文、资源与工具能力的开放协议。","purpose":"统一工具发现、调用和集成边界。","sourceRefs":["source.public-learning-fixture"]},
+    {"termId":"term.workflow","plainDefinition":"按确定步骤、状态和条件推进任务的编排机制。","purpose":"把确定性流程与模型判断分离。","sourceRefs":["source.public-learning-fixture"]},
+    {"termId":"term.rag","plainDefinition":"先检索外部知识，再把相关内容注入模型上下文的模式。","purpose":"提高回答的相关性、时效性和可追溯性。","sourceRefs":["source.public-learning-fixture"]},
+    {"termId":"term.eval","plainDefinition":"用固定样本、指标和判定规则评估系统质量。","purpose":"支持回归、比较和发布决策。","sourceRefs":["source.public-learning-fixture"]},
+    {"termId":"term.observability","plainDefinition":"通过日志、指标、事件和追踪理解系统运行状态。","purpose":"定位故障并建立可验证运行证据。","sourceRefs":["source.public-learning-fixture"]},
+    {"termId":"term.typescript","plainDefinition":"为 JavaScript 增加静态类型系统的语言。","purpose":"提高大型应用的可维护性和接口可验证性。","sourceRefs":["source.public-learning-fixture"]},
+    {"termId":"term.node-runtime","plainDefinition":"执行 JavaScript/TypeScript 服务端程序的 Node.js 运行环境。","purpose":"承载 API、任务和服务端集成。","sourceRefs":["source.public-learning-fixture"]},
+    {"termId":"term.http-api","plainDefinition":"通过 HTTP 暴露稳定请求、响应和错误契约的接口。","purpose":"建立服务之间可测试的集成边界。","sourceRefs":["source.public-learning-fixture"]},
+    {"termId":"term.reliability","plainDefinition":"系统在故障和不确定条件下持续提供可接受服务的能力。","purpose":"指导超时、重试、幂等、降级和恢复设计。","sourceRefs":["source.public-learning-fixture"]},
+    {"termId":"term.browser","plainDefinition":"执行 Web 页面、网络请求、事件循环和渲染的客户端运行环境。","purpose":"理解前端行为和性能边界。","sourceRefs":["source.public-learning-fixture"]},
+    {"termId":"term.server","plainDefinition":"接收请求并执行应用逻辑的服务端运行单元。","purpose":"承载 API、状态和外部依赖访问。","sourceRefs":["source.public-learning-fixture"]},
+    {"termId":"term.client","plainDefinition":"面向用户或调用方发起请求并呈现结果的客户端。","purpose":"理解端到端系统中的调用边界。","sourceRefs":["source.public-learning-fixture"]},
+    {"termId":"term.python","plainDefinition":"广泛用于后端、数据和 AI 工程的通用编程语言。","purpose":"支持第二服务端和 AI 生态集成。","sourceRefs":["source.public-learning-fixture"]},
+    {"termId":"term.fastapi","plainDefinition":"基于 Python 类型提示构建 HTTP API 的 Web 框架。","purpose":"快速实现有明确 schema 的 Python 服务。","sourceRefs":["source.public-learning-fixture"]},
+    {"termId":"term.system-design","plainDefinition":"从需求、约束、状态和失败模式出发设计系统边界与取舍。","purpose":"形成可解释的架构决策。","sourceRefs":["source.public-learning-fixture"]},
+    {"termId":"term.fde","plainDefinition":"面向客户现场或具体业务问题，把产品能力落地为可验收方案的工程角色。","purpose":"连接需求澄清、工程实现和交付价值。","sourceRefs":["source.public-learning-fixture"]}
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "interview-topic-term-map.public.v1",
+  "generatedAt": "2026-09-11",
+  "policy": "PUBLIC_GENERIC_FIXTURE",
+  "mappings": [
+    {"topicId":"agent.runtime","mode":"TERM_GRAPH","terms":[{"termId":"term.agent-runtime","canonicalName":"Agent Runtime","rank":1}]},
+    {"topicId":"agent.context","mode":"TERM_GRAPH","terms":[{"termId":"term.context-engineering","canonicalName":"Context Engineering","rank":1}]},
+    {"topicId":"agent.tool-calling","mode":"TERM_GRAPH","terms":[{"termId":"term.tool-calling","canonicalName":"Tool Calling","rank":1}]},
+    {"topicId":"agent.mcp","mode":"TERM_GRAPH","terms":[{"termId":"term.mcp","canonicalName":"MCP","rank":1}]},
+    {"topicId":"agent.workflow","mode":"TERM_GRAPH","terms":[{"termId":"term.workflow","canonicalName":"Workflow","rank":1}]},
+    {"topicId":"agent.rag","mode":"TERM_GRAPH","terms":[{"termId":"term.rag","canonicalName":"RAG","rank":1}]},
+    {"topicId":"agent.eval","mode":"TERM_GRAPH","terms":[{"termId":"term.eval","canonicalName":"Eval","rank":1}]},
+    {"topicId":"agent.observability","mode":"TERM_GRAPH","terms":[{"termId":"term.observability","canonicalName":"Observability","rank":1}]},
+    {"topicId":"frontend.javascript-typescript","mode":"TERM_GRAPH","terms":[{"termId":"term.typescript","canonicalName":"TypeScript","rank":1}]},
+    {"topicId":"frontend.browser-runtime","mode":"TERM_GRAPH","terms":[{"termId":"term.browser","canonicalName":"Browser","rank":1}]},
+    {"topicId":"backend.node-runtime","mode":"TERM_GRAPH","terms":[{"termId":"term.node-runtime","canonicalName":"Node Runtime","rank":1}]},
+    {"topicId":"backend.http-api","mode":"TERM_GRAPH","terms":[{"termId":"term.http-api","canonicalName":"HTTP / API","rank":1}]},
+    {"topicId":"backend.reliability","mode":"TERM_GRAPH","terms":[{"termId":"term.reliability","canonicalName":"Reliability","rank":1}]},
+    {"topicId":"coding.typescript","mode":"TERM_GRAPH","terms":[{"termId":"term.typescript","canonicalName":"TypeScript","rank":1}]},
+    {"topicId":"system-design.requirements-tradeoff","mode":"TERM_GRAPH","terms":[{"termId":"term.system-design","canonicalName":"System Design","rank":1}]},
+    {"topicId":"fde.requirements","mode":"TERM_GRAPH","terms":[{"termId":"term.fde","canonicalName":"FDE","rank":1}]}
+  ]
+}

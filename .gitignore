@@ -1,0 +1,51 @@
+node_modules/
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Private local workspace (never publish)
+career-assets/
+.private/
+docs/00-公共上下文/
+
+# Public documentation is curated explicitly. All historical/internal docs stay local.
+docs/**
+!docs/
+!docs/开放源码/
+!docs/开放源码/**
+
+# Private tests stay local; public release tests are explicit.
+app/tests/**
+!app/tests/
+!app/tests/*.public.test.ts
+
+# Keep Skills public, but do not redistribute local/private references,
+# evaluations, or third-party resume template mirrors without a license review.
+skills/**/references/
+skills/**/evals/
+skills/resume-engineering/templates/
+
+# Runtime data
+app/db/runtime/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Build / test artifacts
+dist/
+coverage/
+.tmp/
+tmp/
+*.tsbuildinfo
+__pycache__/
+*.py[cod]
+
+# Local editor/cache
+.vscode/
+.idea/
+.cache/
+
+# Nested project build artifacts
+**/.dist/
